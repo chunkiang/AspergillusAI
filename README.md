@@ -5,11 +5,6 @@
 
 ## 📘 Introduction | 项目简介
 
-This repository contains the implementation code for the research paper:  
-> **Automatic identification of clinically important *Aspergillus* species by artificial intelligence-based image recognition: proof-of-concept study**  
-
-本项目为论文《基于人工智能图像识别的临床重要 *Aspergillus* 种自动鉴定：概念验证研究》的开源实现。  
-研究通过卷积神经网络（CNN）对菌落宏观照片与显微镜图像进行自动识别，实现临床常见 *Aspergillus* 种（如 *A. fumigatus*, *A. flavus*, *A. niger*, *A. terreus*）的自动分类。
 
 ---
 
@@ -24,12 +19,11 @@ This repository contains the implementation code for the research paper:
 ---
 
 ## 🏗️ Project Structure | 项目结构
-
 AspergillusAI/
-├── 00_运行环境搭建.py # 构建数据集目录结构（microscope + normal）
-├── 01_主程序.py # 主训练脚本，包含模型构建与评估
-├── dataset/ # 训练数据集（自动生成）
-├── testdata/ # 测试数据集（自动生成）
-├── drive/MyDrive/models/ # 模型保存路径（Colab 环境下）
+├── 00_运行环境搭建.py        # 构建数据集目录结构（microscope + normal）
+├── 01_主程序.py              # 主训练脚本，包含模型构建与评估
+├── dataset/                  # 训练数据集（自动生成）
+├── testdata/                 # 测试数据集（自动生成）
+├── drive/MyDrive/models/     # 模型保存路径（Colab 环境下）
 ├── README.md
-└── requirements.txt # 可选：列出依赖包
+└── requirements.txt          # 可选：列出依赖包
