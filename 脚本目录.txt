@@ -1,0 +1,46 @@
+真菌 AI · Audit 脚本目录（编号 = 流程步骤；输出文件夹编号与之对应）
+
+00_ 初始化与数据审计              → output/04_audit_review/ext_audit、train_audit
+  00_audit_external.py            外部图清点、查重、与训练集重叠
+  00_audit_train.py               训练集审计、菌株分组推断
+  00_clean_train.py               移走完全重复图，生成跨类别复核网页
+  00_build_manifest.py            外部图 ↔ 答案 ↔ 训练类别 总表（manifest.csv）
+
+01_ 训练截图与训练集              → CNN/crops_v2 等；output/01_trainsets
+  01_make_recrop_dirs.py          建"原图_重截"文件夹、查看找图/截图进度
+  01_crop_batch_training.py       规范截图（主力工具，224 预览、结构标注）
+  01_crop_batch.py                外部/网络原图补截（早期工具）
+  01_crop_helper.py               候选小块辅助挑图
+  01_build_trainset.py            合并各来源截图 → 训练清单
+
+02_ 训练                          → output/02_training_runs
+  02_train.py                     交叉验证 / 最终模型
+  02_run_all.sh                   批量交叉验证
+  02_run_all_timestamp.sh         批量交叉验证（目录带时间戳）
+
+02b_ 训练后的内部分析             → 写回各次训练目录
+  02b_analyze_errors.py           错分去向、整组出错的菌株
+  02b_analyze_errors_batch.sh     对各模型最新一次交叉验证批量分析
+  02b_plot_confusion.py           混淆矩阵图（PNG/PDF）
+  02b_compare_runs.py             模型比较表
+  02b_oof_by_site.py              按来源拆分交叉验证结果
+
+03_ 外部验证                      → output/03_external_eval
+  03_roi_blind.py                 外部图盲法 ROI 截取
+  03_sanity_check.py              最终模型自检
+  03_eval_external.py             外部验证主程序
+  03_run_final.zsh                训练 3 个最终模型 + 外部验证
+  03_run_loso.zsh                 按来源留一外部验证
+
+04_ 人工核对                      → output/04_audit_review
+  04_review_train.py              训练截图核对网页（导出 review_images.csv）
+  04_review_sites.py              指定来源外部 ROI 核对网页
+  04_check_roi_overlap.py         检查训练集是否含 roi_test 的 ROI
+  04_train_gallery.py             训练图片查看器（用 --root output/01_trainsets）
+
+05_ ROI 诊断                      → output/05_roi_diagnostics
+  05_roi_analysis.py              ROI 准确率、来源、颜色偏移诊断
+
+99_ 工具
+  99_organize_outputs.py          旧文件夹搬进 output/（--apply 执行，--undo 撤销）
+  paths.py                        路径约定（被所有脚本引用，不要改名）
