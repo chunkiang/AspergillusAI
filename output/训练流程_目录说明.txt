@@ -1,0 +1,24 @@
+训练流程目录说明（由 train_1_init.zsh 生成；以后不会覆盖）
+
+脚本顺序（都在 Audit 文件夹运行）：
+  zsh train_0_selftest.zsh    自检
+  zsh train_1_init.zsh        建文件夹
+  zsh train_2_audit.zsh       图片审计；可加入新的显微 / 菌落图片
+  zsh train_3_crop.zsh        显微截图、菌落标注、菌落白平衡
+  zsh train_4_dataset.zsh     建显微数据集 + 菌落数据集
+  zsh train_5_micro.zsh       训练显微模型（CV / 最终模型）
+  zsh train_6_colony.zsh      训练菌落模型
+  zsh train_review.zsh        随时查看原图、数据集、模型
+
+图片位置：
+  /Users/chunjiang/Documents/真菌AI/原图_重截/<菌种>/<菌株>/   新的显微原图（截图后进入 crops_v2）
+  /Users/chunjiang/Documents/真菌AI/CNN/补拍_2026/<组>/          菌落照片 PUPH-FUM-001-B-O-1.jpg
+
+输出：
+  01_trainsets/micro_<时间>_<来源代号>/     显微数据集（含 DATASET_INFO.json）
+  01_trainsets/colony_<时间>/               菌落数据集
+  02_training_runs/<数据集名>/<backbone>_cv           交叉验证
+  02_training_runs/<数据集名>/<backbone>_full_final   最终模型
+  02_training_runs/colony/<时间>/                     菌落模型
+  每个模型文件夹里：TRAIN_SUMMARY.md（总结）、RUN_RECORD.md（命令与脚本指纹）
+  06_logs/train_ledger.tsv                  所有 python 调用的总账
