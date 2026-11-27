@@ -1,0 +1,44 @@
+{
+  "models": [
+    {
+      "dir": "swin_t_full_final",
+      "weights": {
+        "final.pt": "ed55a51a8d585f26260599c656da9170"
+      },
+      "class_names": [
+        "Alternaria",
+        "Aspergillus flavus (sect. Flavi)",
+        "Aspergillus fumigatus (sect. Fumigati)",
+        "Aspergillus glaucus (sect. Aspergillus)",
+        "Aspergillus nidulans (sect. Nidulantes)",
+        "Aspergillus niger (sect. Nigri)",
+        "Aspergillus terreus (sect. Terrei)",
+        "Aspergillus versicolor (sect. Versicolores)",
+        "Bipolaris",
+        "Coprinellus/Coprinopsis",
+        "Cunninghamella",
+        "Curvularia",
+        "Fonsecaea",
+        "Fusarium",
+        "Histoplasma capsulatum",
+        "Lichtheimia",
+        "Lomentospora prolificans",
+        "Mucor",
+        "Paecilomyces",
+        "Penicillium",
+        "Rhizopus",
+        "Scedosporium",
+        "Schizophyllum",
+        "Scopulariopsis",
+        "Sporothrix schenckii complex",
+        "Talaromyces marneffei"
+      ]
+    }
+  ],
+  "rule": {
+    "aggregation": "mean of ROI probabilities per isolate",
+    "p_min": 0.7,
+    "gap_min": 0.2
+  },
+  "locked_at": "2026-10-17 23:50:28"
+}

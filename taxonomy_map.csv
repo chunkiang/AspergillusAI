@@ -1,0 +1,173 @@
+﻿species_cn,latin,train_class,note
+烟曲,Aspergillus fumigatus,Aspergillus fumigatus (sect. Fumigati),A 本期：训练 + 外部验证
+烟曲?,Aspergillus fumigatus,Aspergillus fumigatus (sect. Fumigati),A 本期：训练 + 外部验证
+烟曲霉,Aspergillus fumigatus,Aspergillus fumigatus (sect. Fumigati),A 本期：训练 + 外部验证
+迟缓曲霉,Aspergillus lentulus,Aspergillus fumigatus (sect. Fumigati),A 本期：训练 + 外部验证
+黄曲,Aspergillus flavus,Aspergillus flavus (sect. Flavi),A 本期：训练 + 外部验证
+黄曲霉,Aspergillus flavus,Aspergillus flavus (sect. Flavi),A 本期：训练 + 外部验证
+黑曲,Aspergillus niger,Aspergillus niger (sect. Nigri),A 本期：训练 + 外部验证
+黑曲低倍,Aspergillus niger,Aspergillus niger (sect. Nigri),A 本期：训练 + 外部验证
+黑曲霉,Aspergillus niger,Aspergillus niger (sect. Nigri),A 本期：训练 + 外部验证
+黑曲霉高倍,Aspergillus niger,Aspergillus niger (sect. Nigri),A 本期：训练 + 外部验证
+棘孢曲霉,Aspergillus aculeatus,,C 本期不纳入：作为集外菌种测试（开放集）
+土曲,Aspergillus terreus,Aspergillus terreus (sect. Terrei),A 本期：训练 + 外部验证
+土曲霉,Aspergillus terreus,Aspergillus terreus (sect. Terrei),A 本期：训练 + 外部验证
+构巢,Aspergillus nidulans,Aspergillus nidulans (sect. Nidulantes),A 本期：训练 + 外部验证
+构巢曲霉,Aspergillus nidulans,Aspergillus nidulans (sect. Nidulantes),A 本期：训练 + 外部验证
+构巢曲霉?,Aspergillus nidulans,Aspergillus nidulans (sect. Nidulantes),A 本期：训练 + 外部验证
+爪甲曲霉,Aspergillus unguis,,C 本期不纳入：作为集外菌种测试（开放集）
+杂色曲霉,Aspergillus versicolor,Aspergillus versicolor (sect. Versicolores),A 本期：训练 + 外部验证
+聚多曲霉,Aspergillus sydowii,Aspergillus versicolor (sect. Versicolores),A 本期：训练 + 外部验证
+灰绿曲霉,Aspergillus glaucus,Aspergillus glaucus (sect. Aspergillus),A 本期：训练 + 外部验证
+棒曲,Aspergillus clavatus,,C 本期不纳入：作为集外菌种测试（开放集）
+棒曲霉,Aspergillus clavatus,,C 本期不纳入：作为集外菌种测试（开放集）
+曲霉,Aspergillus sp.,,X 不可用
+曲霉(未定种),Aspergillus sp.,,X 不可用
+曲霉菌,Aspergillus sp.,,X 不可用
+匍枝根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+小孢根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+少根根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+微小根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+根霉3,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+根霉属,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+米根霉,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+跟霉属,Rhizopus spp.,Rhizopus,A 本期：训练 + 外部验证
+毛霉,Mucor spp.,Mucor,A 本期：训练 + 外部验证
+毛霉?,Mucor spp.,Mucor,A 本期：训练 + 外部验证
+毛霉目,Mucor spp.,Mucor,A 本期：训练 + 外部验证
+毛霉菌,Mucor spp.,Mucor,A 本期：训练 + 外部验证
+伞枝横梗霉,Lichtheimia spp.,Lichtheimia,A 本期：训练 + 外部验证
+伞状横梗霉,Lichtheimia spp.,Lichtheimia,A 本期：训练 + 外部验证
+横梗霉,Lichtheimia spp.,Lichtheimia,A 本期：训练 + 外部验证
+犁头霉,Lichtheimia spp.,Lichtheimia,A 本期：训练 + 外部验证
+小克银,Cunninghamella spp.,Cunninghamella,A 本期：训练 + 外部验证
+小克银汉,Cunninghamella spp.,Cunninghamella,A 本期：训练 + 外部验证
+小克银汉霉,Cunninghamella spp.,Cunninghamella,A 本期：训练 + 外部验证
+共头霉,Syncephalastrum spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+耳霉,Conidiobolus spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+双孢镰刀,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+层生镰刀菌,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+茄病镰刀,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+茄病镰刀菌,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+轮枝镰刀菌,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+镰刀,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+镰刀菌,Fusarium spp.,Fusarium,A 本期：训练 + 外部验证
+尖端赛多孢,Scedosporium apiospermum complex,Scedosporium,A 本期：训练 + 外部验证
+尖端赛多孢菌,Scedosporium apiospermum complex,Scedosporium,A 本期：训练 + 外部验证
+尖端赛多孢霉,Scedosporium apiospermum complex,Scedosporium,A 本期：训练 + 外部验证
+波氏赛多孢,Scedosporium apiospermum complex,Scedosporium,A 本期：训练 + 外部验证
+赛多孢,Scedosporium apiospermum complex,Scedosporium,A 本期：训练 + 外部验证
+多育节荚孢,Lomentospora prolificans,Lomentospora prolificans,A 本期：训练 + 外部验证
+多育赛多孢,Lomentospora prolificans,Lomentospora prolificans,A 本期：训练 + 外部验证
+多育赛多孢菌,Lomentospora prolificans,Lomentospora prolificans,A 本期：训练 + 外部验证
+桔青霉,Penicillium spp.,Penicillium,A 本期：训练 + 外部验证
+青霉,Penicillium spp.,Penicillium,A 本期：训练 + 外部验证
+青霉?,Penicillium spp.,Penicillium,A 本期：训练 + 外部验证
+青霉菌,Penicillium spp.,Penicillium,A 本期：训练 + 外部验证
+篮状菌,Talaromyces spp. (non-marneffei),,C 本期不纳入：作为集外菌种测试（开放集）
+篮状菌(非马尔尼菲),Talaromyces spp. (non-marneffei),,C 本期不纳入：作为集外菌种测试（开放集）
+绳状篮状菌,Talaromyces spp. (non-marneffei),,C 本期不纳入：作为集外菌种测试（开放集）
+绳状蓝状菌,Talaromyces spp. (non-marneffei),,C 本期不纳入：作为集外菌种测试（开放集）
+宛氏拟青霉,Paecilomyces spp.,Paecilomyces,A 本期：训练 + 外部验证
+拟青梅,Paecilomyces spp.,Paecilomyces,A 本期：训练 + 外部验证
+拟青霉,Paecilomyces spp.,Paecilomyces,A 本期：训练 + 外部验证
+淡紫紫孢霉,Purpureocillium lilacinum,,C 本期不纳入：作为集外菌种测试（开放集）
+紫孢霉,Purpureocillium lilacinum,,C 本期不纳入：作为集外菌种测试（开放集）
+帚霉,Scopulariopsis spp.,Scopulariopsis,A 本期：训练 + 外部验证
+帚霉3,Scopulariopsis spp.,Scopulariopsis,A 本期：训练 + 外部验证
+短柄帚霉,Scopulariopsis spp.,Scopulariopsis,A 本期：训练 + 外部验证
+互生枝顶孢霉,Acremonium/Sarocladium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+帚枝霉,Acremonium/Sarocladium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+枝顶孢,Acremonium/Sarocladium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+枝顶孢霉,Acremonium/Sarocladium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+木霉,Trichoderma spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+白僵菌,Beauveria spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+侧齿霉,Engyodontium album,,C 本期不纳入：作为集外菌种测试（开放集）
+白色侧齿霉,Engyodontium album,,C 本期不纳入：作为集外菌种测试（开放集）
+脉孢霉,Neurospora spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+刺盘孢,Colletotrichum spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+地霉,Geotrichum spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+地霉属,Geotrichum spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+白地霉属,Geotrichum spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+互格交链链格孢,Alternaria spp.,Alternaria,A 本期：训练 + 外部验证
+链格孢,Alternaria spp.,Alternaria,A 本期：训练 + 外部验证
+链格孢霉,Alternaria spp.,Alternaria,A 本期：训练 + 外部验证
+链隔孢霉属,Alternaria spp.,Alternaria,A 本期：训练 + 外部验证
+弯孢霉,Curvularia spp.,Curvularia,A 本期：训练 + 外部验证
+弯胞霉,Curvularia spp.,Curvularia,A 本期：训练 + 外部验证
+离蠕孢,Bipolaris spp.,Bipolaris,B 本期：仅训练（外部样本不足，只做内部评估）
+着色霉,Fonsecaea spp.,Fonsecaea,A 本期：训练 + 外部验证
+裴氏着色霉,Fonsecaea spp.,Fonsecaea,A 本期：训练 + 外部验证
+外瓶霉,Exophiala spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+外瓶霉属,Exophiala spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+皮炎外瓶霉,Exophiala spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+枝孢样枝孢霉,Cladosporium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+枝孢霉,Cladosporium spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+产黑色素出芽短梗霉,Aureobasidium melanogenum,,C 本期不纳入：作为集外菌种测试（开放集）
+短梗霉,Aureobasidium melanogenum,,C 本期不纳入：作为集外菌种测试（开放集）
+西弗射盾子囊霉,Stephanoascus ciferrii,,C 本期不纳入：作为集外菌种测试（开放集）
+炭团菌,Hypoxylon spp.,,C 本期不纳入：作为集外菌种测试（开放集）
+马尔尼菲,Talaromyces marneffei,Talaromyces marneffei,A 本期：训练 + 外部验证
+马尔尼菲篮状菌,Talaromyces marneffei,Talaromyces marneffei,A 本期：训练 + 外部验证
+马尔尼菲青霉,Talaromyces marneffei,Talaromyces marneffei,A 本期：训练 + 外部验证
+孢子丝菌申克孢子丝菌,Sporothrix schenckii complex,Sporothrix schenckii complex,A 本期：训练 + 外部验证
+申克孢子丝,Sporothrix schenckii complex,Sporothrix schenckii complex,A 本期：训练 + 外部验证
+申克孢子丝菌,Sporothrix schenckii complex,Sporothrix schenckii complex,A 本期：训练 + 外部验证
+组织胞浆菌,Histoplasma capsulatum,Histoplasma capsulatum,B 本期：仅训练（外部样本不足，只做内部评估）
+普通裂褶菌,Schizophyllum commune,Schizophyllum,A 本期：训练 + 外部验证
+裂褶菌,Schizophyllum commune,Schizophyllum,A 本期：训练 + 外部验证
+小鬼伞,Coprinellus/Coprinopsis spp.,Coprinellus/Coprinopsis,A 本期：训练 + 外部验证
+辐毛小鬼伞,Coprinellus/Coprinopsis spp.,Coprinellus/Coprinopsis,A 本期：训练 + 外部验证
+鬼伞,Coprinellus/Coprinopsis spp.,Coprinellus/Coprinopsis,A 本期：训练 + 外部验证
+鬼伞菌,Coprinellus/Coprinopsis spp.,Coprinellus/Coprinopsis,A 本期：训练 + 外部验证
+粗毛栓菌,Trametes hirsuta,,C 本期不纳入：作为集外菌种测试（开放集）
+红色毛癣菌,Trichophyton rubrum,,D 本期不纳入：留待后续专项研究
+须癣毛癣菌,Trichophyton mentagrophytes,,D 本期不纳入：留待后续专项研究
+趾间毛癣菌,Trichophyton interdigitale,,D 本期不纳入：留待后续专项研究
+断发毛癣菌,Trichophyton tonsurans,,D 本期不纳入：留待后续专项研究
+犬小,Microsporum canis,,D 本期不纳入：留待后续专项研究
+犬小孢子,Microsporum canis,,D 本期不纳入：留待后续专项研究
+犬小孢子菌,Microsporum canis,,D 本期不纳入：留待后续专项研究
+小孢子菌,Microsporum spp.,,D 本期不纳入：留待后续专项研究
+石膏样小孢子菌,Nannizzia gypsea,,D 本期不纳入：留待后续专项研究
+白念珠菌,Candida albicans,,D 本期不纳入：留待后续专项研究
+白色念珠菌,Candida albicans,,D 本期不纳入：留待后续专项研究
+光滑念珠菌,Nakaseomyces glabratus,,D 本期不纳入：留待后续专项研究
+热带念珠菌,Candida tropicalis,,D 本期不纳入：留待后续专项研究
+克柔念珠菌,Pichia kudriavzevii,,D 本期不纳入：留待后续专项研究
+近平滑念珠菌,Candida parapsilosis,,D 本期不纳入：留待后续专项研究
+耳念,Candidozyma auris,,D 本期不纳入：留待后续专项研究
+耳念珠菌,Candidozyma auris,,D 本期不纳入：留待后续专项研究
+皱褶假丝酵母菌,Diutina rugosa,,D 本期不纳入：留待后续专项研究
+褶皱念珠菌,Diutina rugosa,,D 本期不纳入：留待后续专项研究
+念珠菌,Candida sp.,,D 本期不纳入：留待后续专项研究
+念珠菌(未定种),Candida sp.,,D 本期不纳入：留待后续专项研究
+念珠菌（其他）,Candida sp.,,D 本期不纳入：留待后续专项研究
+新型隐球菌,Cryptococcus neoformans,,D 本期不纳入：留待后续专项研究
+隐球菌,Cryptococcus sp.,,D 本期不纳入：留待后续专项研究
+隐球菌(未定种),Cryptococcus sp.,,D 本期不纳入：留待后续专项研究
+罗伦特隐球菌,Papiliotrema laurentii,,D 本期不纳入：留待后续专项研究
+金色隐球菌,待核,,D 本期不纳入：留待后续专项研究
+毛孢子菌,Trichosporon spp.,,D 本期不纳入：留待后续专项研究
+阿沙丝孢酵母,Trichosporon spp.,,D 本期不纳入：留待后续专项研究
+阿萨希,Trichosporon spp.,,D 本期不纳入：留待后续专项研究
+阿萨希毛孢子菌,Trichosporon spp.,,D 本期不纳入：留待后续专项研究
+酿酒酵母,Saccharomyces cerevisiae,,D 本期不纳入：留待后续专项研究
+头状大孢酵母,Magnusiomyces capitatus,,D 本期不纳入：留待后续专项研究
+奥默柯达菌,Kodamaea ohmeri,,D 本期不纳入：留待后续专项研究
+马拉色菌,Malassezia spp.,,D 本期不纳入：留待后续专项研究
+无绿藻,Prototheca spp.,,D 本期不纳入：留待后续专项研究
+布鲁菌,Brucella spp.,,D 本期不纳入：留待后续专项研究
+布鲁菌革兰染色,Brucella spp.,,D 本期不纳入：留待后续专项研究
+诺卡菌,Nocardia spp.,,D 本期不纳入：留待后续专项研究
+诺卡革兰染色,Nocardia spp.,,D 本期不纳入：留待后续专项研究
+混合,—,,X 不可用
+链格孢+镰刀菌,—,,X 不可用
+葡萄牙念珠菌,Clavispora lusitaniae,,D 本期不纳入：留待后续专项研究
+季也蒙念珠菌,Meyerozyma guilliermondii,,D 本期不纳入：留待后续专项研究
+产脘念珠菌,Candida pararugosa?,,D 本期不纳入：留待后续专项研究
+链状念珠菌,Candida catenulata,,D 本期不纳入：留待后续专项研究
+溶脂念珠菌,Yarrowia lipolytica,,D 本期不纳入：留待后续专项研究
+土生念珠菌,Candida humicola?,,D 本期不纳入：留待后续专项研究
+希木龙念珠菌,Candida haemulonii,,D 本期不纳入：留待后续专项研究

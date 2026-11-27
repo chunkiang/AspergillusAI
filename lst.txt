@@ -1,0 +1,168 @@
+runs
+├── comparison.csv
+├── convnext_tiny_cv_20261011_0433
+│   ├── args.json
+│   ├── class_names.json
+│   ├── cv_folds.csv
+│   ├── cv_summary.json
+│   ├── fold_1
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_2
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_3
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_4
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_5
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── oof_predictions.csv
+│   └── per_class.csv
+├── densenet121_cv_20261010_2212
+│   ├── args.json
+│   ├── class_names.json
+│   ├── confusion.csv
+│   ├── confusion_matrix.pdf
+│   ├── confusion_matrix.png
+│   ├── cv_folds.csv
+│   ├── cv_summary.json
+│   ├── error_summary.txt
+│   ├── errors.html
+│   ├── fold_1
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_2
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_3
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_4
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_5
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── oof_predictions.csv
+│   └── per_class.csv
+├── efficientnet_b0_cv_20261011_0321
+│   ├── args.json
+│   ├── class_names.json
+│   ├── cv_folds.csv
+│   ├── cv_summary.json
+│   ├── fold_1
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_2
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_3
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_4
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_5
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── oof_predictions.csv
+│   └── per_class.csv
+├── per_class_f1.csv
+├── resnet50_cv_20261011_0143
+│   ├── args.json
+│   ├── class_names.json
+│   ├── cv_folds.csv
+│   ├── cv_summary.json
+│   ├── fold_1
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_2
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_3
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_4
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── fold_5
+│   │   ├── best.pt
+│   │   ├── fold.json
+│   │   ├── train_log.csv
+│   │   └── val_probs.npy
+│   ├── oof_predictions.csv
+│   └── per_class.csv
+└── swin_t_cv_20261011_1541
+    ├── args.json
+    ├── class_names.json
+    ├── cv_folds.csv
+    ├── cv_summary.json
+    ├── fold_1
+    │   ├── best.pt
+    │   ├── fold.json
+    │   ├── train_log.csv
+    │   └── val_probs.npy
+    ├── fold_2
+    │   ├── best.pt
+    │   ├── fold.json
+    │   ├── train_log.csv
+    │   └── val_probs.npy
+    ├── fold_3
+    │   ├── best.pt
+    │   ├── fold.json
+    │   ├── train_log.csv
+    │   └── val_probs.npy
+    ├── fold_4
+    │   ├── best.pt
+    │   ├── fold.json
+    │   ├── train_log.csv
+    │   └── val_probs.npy
+    ├── fold_5
+    │   ├── best.pt
+    │   ├── fold.json
+    │   ├── train_log.csv
+    │   └── val_probs.npy
+    ├── oof_predictions.csv
+    └── per_class.csv
