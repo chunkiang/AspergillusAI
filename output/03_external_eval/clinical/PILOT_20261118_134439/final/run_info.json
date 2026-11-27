@@ -1,0 +1,85 @@
+{
+  "run_at": "2026-11-18T13:45:21",
+  "version": "03_clin_fusion v1.3 (2026-10-23)",
+  "script_sha256": "99c0c6dcb10afe6205c7164027d6597176f79d7ac3804fdc21410da524ed30fb",
+  "clin_sections_sha256": "2d1d0267c6d1d303bf3a5d1218c97b3f2ca5e586ea36230780a13b1d201454d4",
+  "fusion": {
+    "method": "linear pool within colony-covered sections",
+    "alpha_colony": 0.8,
+    "uncovered_sections": [
+      "Nidulantes",
+      "Other"
+    ],
+    "uncovered_rule": "no fusion; report genus; flag",
+    "missing_colony_rule": "report genus; flag"
+  },
+  "fusion_lock": "未核对（试运行或自检）",
+  "args": {
+    "micro": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/micro",
+    "colony": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/colony",
+    "answers": "/Users/chunjiang/Documents/真菌AI/临床验证_2026/answers/answers_master.csv",
+    "out": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/final",
+    "asp_min": 0.5,
+    "alpha": 0.8,
+    "w_colony": null,
+    "p_min": 0.7,
+    "gap_min": 0.2,
+    "lock": "",
+    "write_lock": false,
+    "colony_model": ""
+  },
+  "inputs": {
+    "micro_per_isolate": {
+      "path": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/micro/per_isolate.csv",
+      "sha256": "6e9710121661c0b87e356afa895b49bfe7c54bb1cdfbdc34eafd4a21aa030feb"
+    },
+    "colony_per_strain": {
+      "path": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/colony/per_strain.csv",
+      "sha256": "08b6ae93fb84959070967bbe9fc3115be265c8bb2c51c40e620544a39bfe71eb"
+    }
+  },
+  "micro_classes": [
+    "Alternaria",
+    "Aspergillus flavus (sect. Flavi)",
+    "Aspergillus fumigatus (sect. Fumigati)",
+    "Aspergillus glaucus (sect. Aspergillus)",
+    "Aspergillus nidulans (sect. Nidulantes)",
+    "Aspergillus niger (sect. Nigri)",
+    "Aspergillus terreus (sect. Terrei)",
+    "Aspergillus versicolor (sect. Versicolores)",
+    "Bipolaris",
+    "Coprinellus/Coprinopsis",
+    "Cunninghamella",
+    "Curvularia",
+    "Fonsecaea",
+    "Fusarium",
+    "Histoplasma capsulatum",
+    "Lichtheimia",
+    "Lomentospora prolificans",
+    "Mucor",
+    "Paecilomyces",
+    "Penicillium",
+    "Rhizopus",
+    "Scedosporium",
+    "Schizophyllum",
+    "Scopulariopsis",
+    "Sporothrix schenckii complex",
+    "Talaromyces marneffei"
+  ],
+  "colony_classes": [
+    "Fumigati",
+    "Flavi",
+    "Nigri",
+    "Terrei"
+  ],
+  "aspergillus_class_to_section": {
+    "Aspergillus flavus (sect. Flavi)": "Flavi",
+    "Aspergillus fumigatus (sect. Fumigati)": "Fumigati",
+    "Aspergillus glaucus (sect. Aspergillus)": "Other",
+    "Aspergillus nidulans (sect. Nidulantes)": "Nidulantes",
+    "Aspergillus niger (sect. Nigri)": "Nigri",
+    "Aspergillus terreus (sect. Terrei)": "Terrei",
+    "Aspergillus versicolor (sect. Versicolores)": "Nidulantes"
+  },
+  "answers_sha256": "57c391d4d8a8f7bcd5b8b6f1534bac22303cce0a263d414a3142cbfb598878a9"
+}

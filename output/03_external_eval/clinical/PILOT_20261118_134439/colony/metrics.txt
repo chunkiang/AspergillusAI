@@ -1,0 +1,38 @@
+===== 菌落模型预测 =====
+运行时间 2026-11-18 13:45；03_colony_predict v1.0 (2026-10-20)
+模型：/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/colony/20261020_2108（方案 A，类别 Fumigati, Flavi, Nigri, Terrei，T = 1.150，锁定于 2026-10-20T21:08:58）
+数据：/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/colony_preprocessed
+判读规则：top1 < 0.7 或 top1 − top2 < 0.2，或特征距离 D² > 34.5（χ² 0.999 分位，超出训练范围） → 需复核
+提示：培养基标准色 训练 [195, 177, 118] / 本批 [160, 150, 100]（只影响培养基模式校正的图）
+可评估 20 株；无法评估 0 株
+需复核 1/20 株
+
+----- 集内菌株（株级） -----
+top1 准确率          0.947（18/19，95% CI 0.740–0.999）
+top2 准确率          1.000（19/19，95% CI 0.824–1.000）
+平衡准确率           0.967
+macro-F1             0.714
+NLL                  0.308
+ECE（5 箱）          0.018
+每类：
+  类别             株数   判对     敏感度  95% CI         预测为该类    PPV
+  Fumigati       10    9    0.90  0.55–1.00        9    1.00
+  Flavi           5    5    1.00  0.48–1.00        6    0.83
+  Nigri           4    4    1.00  0.40–1.00        4    1.00
+  Terrei          0    0    0.00  nan–nan        0     nan
+混淆矩阵（行 = 真实，列 = 预测）：
+                Fumigati     Flavi     Nigri    Terrei
+  Fumigati             9         1         0         0
+  Flavi                0         5         0         0
+  Nigri                0         0         4         0
+  Terrei               0         0         0         0
+  Fumigati→Terrei 误判 0，Terrei→Fumigati 误判 0
+  Flavi→Nigri 误判 0，Nigri→Flavi 误判 0
+未标记（可直接报告）的准确率  1.000（18/18，95% CI 0.815–1.000）
+标记复核的准确率  0.000（0/1，95% CI 0.000–0.975）
+复核标记比例        0.053（1/19，95% CI 0.001–0.260）
+判错的株：
+  PUPH-PCL-002    Fumigati    → Flavi（0.99） 第2 Fumigati（0.01）  已标记
+
+集外菌株 1 株（模型只能在 4 个组中选，必然判错）：被标记复核 0/1
+  PUPH-PCL-028    Nidulantes          → Fumigati（0.79）  未标记

@@ -1,0 +1,131 @@
+{
+  "kind": "micro",
+  "name": "trainset_v4",
+  "created": "2026-10-21 10:00",
+  "created_by": "00_methods_collect.py（现算）",
+  "n_images": 3121,
+  "n_classes": 26,
+  "n_groups": 1923,
+  "by_source": {
+    "dev_original": 1759,
+    "crops_new": 125,
+    "crops_v2": 1237
+  },
+  "by_site": {
+    "PUPH": 2795,
+    "WEB2": 118,
+    "WEB1": 76,
+    "JYJ": 3,
+    "HSJ": 15,
+    "MCW": 114
+  },
+  "sha256": {
+    "trainset_micro.csv": "2350d441ac1bedc9898ec7e9e2bd75951cab751a03578d7ce2629d15682dfdad"
+  },
+  "by_class": {
+    "Alternaria": {
+      "n": 343,
+      "groups": 135
+    },
+    "Scedosporium": {
+      "n": 273,
+      "groups": 253
+    },
+    "Penicillium": {
+      "n": 66,
+      "groups": 66
+    },
+    "Lomentospora prolificans": {
+      "n": 141,
+      "groups": 112
+    },
+    "Sporothrix schenckii complex": {
+      "n": 245,
+      "groups": 245
+    },
+    "Cunninghamella": {
+      "n": 76,
+      "groups": 52
+    },
+    "Scopulariopsis": {
+      "n": 187,
+      "groups": 187
+    },
+    "Mucor": {
+      "n": 14,
+      "groups": 10
+    },
+    "Fonsecaea": {
+      "n": 165,
+      "groups": 165
+    },
+    "Bipolaris": {
+      "n": 208,
+      "groups": 138
+    },
+    "Histoplasma capsulatum": {
+      "n": 205,
+      "groups": 130
+    },
+    "Coprinellus/Coprinopsis": {
+      "n": 181,
+      "groups": 181
+    },
+    "Lichtheimia": {
+      "n": 84,
+      "groups": 34
+    },
+    "Aspergillus flavus (sect. Flavi)": {
+      "n": 85,
+      "groups": 22
+    },
+    "Aspergillus niger (sect. Nigri)": {
+      "n": 44,
+      "groups": 36
+    },
+    "Aspergillus fumigatus (sect. Fumigati)": {
+      "n": 95,
+      "groups": 25
+    },
+    "Aspergillus nidulans (sect. Nidulantes)": {
+      "n": 38,
+      "groups": 12
+    },
+    "Aspergillus terreus (sect. Terrei)": {
+      "n": 80,
+      "groups": 14
+    },
+    "Aspergillus versicolor (sect. Versicolores)": {
+      "n": 78,
+      "groups": 31
+    },
+    "Fusarium": {
+      "n": 167,
+      "groups": 16
+    },
+    "Talaromyces marneffei": {
+      "n": 51,
+      "groups": 15
+    },
+    "Rhizopus": {
+      "n": 26,
+      "groups": 11
+    },
+    "Curvularia": {
+      "n": 47,
+      "groups": 19
+    },
+    "Paecilomyces": {
+      "n": 50,
+      "groups": 7
+    },
+    "Schizophyllum": {
+      "n": 108,
+      "groups": 3
+    },
+    "Aspergillus glaucus (sect. Aspergillus)": {
+      "n": 64,
+      "groups": 4
+    }
+  }
+}

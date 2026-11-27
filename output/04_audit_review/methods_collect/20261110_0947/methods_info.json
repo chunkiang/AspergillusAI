@@ -1,0 +1,702 @@
+{
+  "1_isolates": {
+    "n_crops": 3121,
+    "n_groups": 1923,
+    "by_source": {
+      "dev_original": {
+        "crops": 1759,
+        "groups": 1653
+      },
+      "crops_new": {
+        "crops": 125,
+        "groups": 31
+      },
+      "crops_v2": {
+        "crops": 1237,
+        "groups": 239
+      }
+    },
+    "by_group_rule": {
+      "tile_source": 14,
+      "date_mtime": 1639,
+      "crop_source": 31,
+      "crop_v2_source": 106,
+      "crop_v2_strain": 133
+    },
+    "traceable_groups": 239,
+    "by_site": {
+      "PUPH": 2795,
+      "WEB2": 118,
+      "WEB1": 76,
+      "JYJ": 3,
+      "HSJ": 15,
+      "MCW": 114
+    },
+    "recrop": {
+      "species_folders": 16,
+      "strains": 161,
+      "images": 242
+    },
+    "colony_strains": {
+      "Flavi": 11,
+      "Fumigati": 9,
+      "Nidulantes": 1,
+      "Nigri": 10,
+      "Terrei": 6
+    },
+    "colony_strains_total": 37,
+    "paired_by_name": 0,
+    "exif": {
+      "显微原图（原图_重截）": {
+        "checked": 242,
+        "with_exif": 234,
+        "earliest": "2015-07-24",
+        "latest": "2026-10-22",
+        "by_year": {
+          "2015": 1,
+          "2016": 63,
+          "2017": 5,
+          "2018": 33,
+          "2019": 19,
+          "2021": 50,
+          "2022": 26,
+          "2024": 12,
+          "2025": 1,
+          "2026": 24
+        }
+      },
+      "菌落照片（补拍_2026）": {
+        "checked": 51,
+        "with_exif": 7,
+        "earliest": "2025-04-01",
+        "latest": "2025-04-01",
+        "by_year": {
+          "2025": 7
+        }
+      }
+    }
+  },
+  "2_micro_dataset": {
+    "model": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_full_final",
+    "dataset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4",
+    "dataset_from": "模型的 args.json",
+    "info": {
+      "kind": "micro",
+      "name": "trainset_v4",
+      "created": "2026-10-21 10:00",
+      "created_by": "00_methods_collect.py（现算）",
+      "n_images": 3121,
+      "n_classes": 26,
+      "n_groups": 1923,
+      "by_source": {
+        "dev_original": 1759,
+        "crops_new": 125,
+        "crops_v2": 1237
+      },
+      "by_site": {
+        "PUPH": 2795,
+        "WEB2": 118,
+        "WEB1": 76,
+        "JYJ": 3,
+        "HSJ": 15,
+        "MCW": 114
+      },
+      "sha256": {
+        "trainset_micro.csv": "2350d441ac1bedc9898ec7e9e2bd75951cab751a03578d7ce2629d15682dfdad"
+      },
+      "by_class": {
+        "Alternaria": {
+          "n": 343,
+          "groups": 135
+        },
+        "Scedosporium": {
+          "n": 273,
+          "groups": 253
+        },
+        "Penicillium": {
+          "n": 66,
+          "groups": 66
+        },
+        "Lomentospora prolificans": {
+          "n": 141,
+          "groups": 112
+        },
+        "Sporothrix schenckii complex": {
+          "n": 245,
+          "groups": 245
+        },
+        "Cunninghamella": {
+          "n": 76,
+          "groups": 52
+        },
+        "Scopulariopsis": {
+          "n": 187,
+          "groups": 187
+        },
+        "Mucor": {
+          "n": 14,
+          "groups": 10
+        },
+        "Fonsecaea": {
+          "n": 165,
+          "groups": 165
+        },
+        "Bipolaris": {
+          "n": 208,
+          "groups": 138
+        },
+        "Histoplasma capsulatum": {
+          "n": 205,
+          "groups": 130
+        },
+        "Coprinellus/Coprinopsis": {
+          "n": 181,
+          "groups": 181
+        },
+        "Lichtheimia": {
+          "n": 84,
+          "groups": 34
+        },
+        "Aspergillus flavus (sect. Flavi)": {
+          "n": 85,
+          "groups": 22
+        },
+        "Aspergillus niger (sect. Nigri)": {
+          "n": 44,
+          "groups": 36
+        },
+        "Aspergillus fumigatus (sect. Fumigati)": {
+          "n": 95,
+          "groups": 25
+        },
+        "Aspergillus nidulans (sect. Nidulantes)": {
+          "n": 38,
+          "groups": 12
+        },
+        "Aspergillus terreus (sect. Terrei)": {
+          "n": 80,
+          "groups": 14
+        },
+        "Aspergillus versicolor (sect. Versicolores)": {
+          "n": 78,
+          "groups": 31
+        },
+        "Fusarium": {
+          "n": 167,
+          "groups": 16
+        },
+        "Talaromyces marneffei": {
+          "n": 51,
+          "groups": 15
+        },
+        "Rhizopus": {
+          "n": 26,
+          "groups": 11
+        },
+        "Curvularia": {
+          "n": 47,
+          "groups": 19
+        },
+        "Paecilomyces": {
+          "n": 50,
+          "groups": 7
+        },
+        "Schizophyllum": {
+          "n": 108,
+          "groups": 3
+        },
+        "Aspergillus glaucus (sect. Aspergillus)": {
+          "n": 64,
+          "groups": 4
+        }
+      }
+    },
+    "sha256_now": "2350d441ac1bedc9898ec7e9e2bd75951cab751a03578d7ce2629d15682dfdad"
+  },
+  "3_micro_training": {
+    "final_args": {
+      "backbone": "swin_t",
+      "mode": "full",
+      "trainset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/trainset_micro.csv",
+      "class_names": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/class_names.json",
+      "out_root": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs",
+      "folds": 5,
+      "only_fold": 0,
+      "epochs": 16,
+      "patience": 8,
+      "batch": 32,
+      "lr": 0.0001,
+      "weight_decay": 0.05,
+      "img_size": 224,
+      "workers": 4,
+      "seed": 42,
+      "no_pretrained": false,
+      "resume_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_full_final"
+    },
+    "cv": {
+      "dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_cv",
+      "summary": {
+        "backbone": "swin_t",
+        "folds_done": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "acc_mean": 0.9283759529628147,
+        "macro_f1_mean": 0.88934664558707,
+        "balanced_acc_mean": 0.9116251237874369,
+        "top2_mean": 0.9484470803844219,
+        "acc_sd": 0.0430496883175342,
+        "macro_f1_sd": 0.04096553292329324,
+        "balanced_acc_sd": 0.02483569189353304,
+        "top2_sd": 0.04206460340180028,
+        "pooled_oof": {
+          "acc": 0.9282281320089715,
+          "macro_f1": 0.8787926917814525,
+          "balanced_acc": 0.8777127561998823,
+          "top2": 0.9487343800064082
+        },
+        "median_best_epoch": 16.0
+      },
+      "args": {
+        "backbone": "swin_t",
+        "mode": "cv",
+        "trainset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/trainset_micro.csv",
+        "class_names": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/class_names.json",
+        "out_root": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs",
+        "folds": 5,
+        "only_fold": 0,
+        "epochs": 30,
+        "patience": 8,
+        "batch": 32,
+        "lr": 0.0001,
+        "weight_decay": 0.05,
+        "img_size": 224,
+        "workers": 4,
+        "seed": 42,
+        "no_pretrained": false,
+        "resume_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_cv"
+      }
+    },
+    "cv_compare": [
+      [
+        "convnext_tiny_cv",
+        5,
+        "0.875 ± 0.041",
+        "0.812 ± 0.041",
+        "0.926",
+        "2026-10-22 21:34"
+      ],
+      [
+        "densenet121_cv",
+        5,
+        "0.930 ± 0.037",
+        "0.887 ± 0.030",
+        "0.958",
+        "2026-10-22 10:23"
+      ],
+      [
+        "efficientnet_b0_cv",
+        5,
+        "0.929 ± 0.032",
+        "0.867 ± 0.035",
+        "0.958",
+        "2026-10-22 11:08"
+      ],
+      [
+        "resnet50_cv",
+        5,
+        "0.917 ± 0.036",
+        "0.856 ± 0.039",
+        "0.938",
+        "2026-10-22 12:20"
+      ],
+      [
+        "swin_t_cv",
+        5,
+        "0.928 ± 0.043",
+        "0.889 ± 0.041",
+        "0.948",
+        "2026-10-21 12:07"
+      ],
+      [
+        "vit_b_16_cv",
+        5,
+        "0.915 ± 0.053",
+        "0.868 ± 0.038",
+        "0.939",
+        "2026-10-23 01:12"
+      ]
+    ],
+    "train_py": {
+      "sha256": "b9396f55a65b53f1e28b60d4d24f2050727c031954c01326203a36534097452c",
+      "hits": {
+        "优化器 / 学习率 / 权重衰减": [
+          "235: lr = base_lr * t / warmup if t < warmup else 0.5 * base_lr * (1 + math.cos(math.pi * (t - warmup) / max(epochs - warmup, 1e-6)))",
+          "248: opt = torch.optim.AdamW([{\"params\": body, \"lr_scale\": 1.0}, {\"params\": head, \"lr_scale\": 10.0}],",
+          "249: lr=a.lr, weight_decay=a.weight_decay)",
+          "262: lr = cosine_lr(opt, a.lr, ep, step, len(dl_tr), a.epochs)",
+          "270: row = dict(epoch=ep + 1, train_loss=tot / max(n, 1), lr=lr, seconds=round(time.time() - t0, 1))",
+          "311: ap.add_argument(\"--lr\", type=float, default=1e-4)",
+          "312: ap.add_argument(\"--weight_decay\", type=float, default=0.05)"
+        ],
+        "学习率调度": [
+          "233: def cosine_lr(opt, base_lr, epoch, step, steps_per_epoch, epochs, warmup=1):",
+          "235: lr = base_lr * t / warmup if t < warmup else 0.5 * base_lr * (1 + math.cos(math.pi * (t - warmup) / max(epochs - warmup, 1e-6)))"
+        ],
+        "损失函数": [
+          "250: crit = nn.CrossEntropyLoss(label_smoothing=0.1)"
+        ],
+        "类别不平衡": [
+          "42: from torch.utils.data import Dataset, DataLoader, WeightedRandomSampler",
+          "201: def sample_weights(df, num_classes):",
+          "252: sampler = WeightedRandomSampler(sample_weights(df_tr, num_classes), num_samples=len(df_tr), replacement=True)"
+        ],
+        "数据增强": [
+          "141: class RandomJPEG:",
+          "149: img.save(buf, format=\"JPEG\", quality=random.randint(*self.q))",
+          "161: return img.filter(ImageFilter.GaussianBlur(radius=random.uniform(0.3, 1.5)))",
+          "165: norm = transforms.Normalize(IMAGENET_MEAN, IMAGENET_STD)",
+          "171: transforms.RandomResizedCrop(size, scale=(0.45, 1.0), ratio=(0.8, 1.25)),   # 多尺度：随机放大局部",
+          "172: transforms.RandomHorizontalFlip(),",
+          "173: transforms.RandomVerticalFlip(),",
+          "174: transforms.ColorJitter(brightness=0.25, contrast=0.25, saturation=0.25, hue=0.04),",
+          "177: RandomJPEG(p=0.25),"
+        ],
+        "早停 / 选最佳 epoch": [
+          "287: if dl_va is not None and bad >= a.patience:",
+          "288: print(f\"{log_prefix}早停：{a.patience} 个 epoch 无提升\")",
+          "309: ap.add_argument(\"--patience\", type=int, default=8)",
+          "378: best_ep = json.load(open(os.path.join(fdir, \"fold.json\")))[\"best_epoch\"]",
+          "385: json.dump({\"best_epoch\": best_ep}, open(os.path.join(fdir, \"fold.json\"), \"w\"))",
+          "389: m.update(fold=k, best_epoch=best_ep, n_val=len(va))",
+          "402: \"pooled_oof\": pooled, \"median_best_epoch\": float(fr[\"best_epoch\"].median())}",
+          "418: print(f\"  最佳 epoch 中位数 {summary['median_best_epoch']:.0f}（full 模式可用 --epochs 设为这个值）\")"
+        ],
+        "预训练权重 / 微调范围": [
+          "57: def build_model(name, num_classes, pretrained=True):",
+          "58: W = \"DEFAULT\" if pretrained else None",
+          "243: model = build_model(a.backbone, num_classes, pretrained=not a.no_pretrained).to(device)",
+          "316: ap.add_argument(\"--no_pretrained\", action=\"store_true\", help=\"不加载 ImageNet 权重（调试用）\")"
+        ],
+        "随机种子 / 设备": [
+          "86: if torch.backends.mps.is_available():",
+          "87: return torch.device(\"mps\")",
+          "88: if torch.cuda.is_available():",
+          "89: return torch.device(\"cuda\")",
+          "315: ap.add_argument(\"--seed\", type=int, default=42)",
+          "322: torch.manual_seed(a.seed)"
+        ],
+        "交叉验证划分": [
+          "45: from sklearn.model_selection import StratifiedGroupKFold",
+          "364: sgkf = StratifiedGroupKFold(n_splits=a.folds, shuffle=True, random_state=a.seed)"
+        ]
+      }
+    }
+  },
+  "4_colony_model": {
+    "dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/colony/20261020_2108",
+    "locked_config": {
+      "locked_at": "2026-10-20T21:08:58",
+      "version": "02_colony_train v1.1 (2026-10-20)",
+      "selected_method": "A",
+      "selection_rule": "lowest OOF strain-level NLL among A and B",
+      "temperature": 1.1497479132761457,
+      "C_final": 3,
+      "classes": [
+        "Fumigati",
+        "Flavi",
+        "Nigri",
+        "Terrei"
+      ],
+      "n_strains": 36,
+      "n_cv_groups": 33,
+      "summary": {
+        "A": {
+          "top1": 0.9444444444444444,
+          "top2": 1.0,
+          "bal_acc": 0.95,
+          "nll": 0.2684110718886898,
+          "ece": 0.06112546471447197
+        },
+        "A_无直径": {
+          "top1": 0.9444444444444444,
+          "top2": 1.0,
+          "bal_acc": 0.95,
+          "nll": 0.29895486838655966,
+          "ece": 0.058688066553401766
+        },
+        "A_仅中心块": {
+          "top1": 0.9444444444444444,
+          "top2": 1.0,
+          "bal_acc": 0.9333333333333333,
+          "nll": 0.18476850139777282,
+          "ece": 0.02791374865510583
+        },
+        "B": {
+          "top1": 0.8611111111111112,
+          "top2": 0.9722222222222222,
+          "bal_acc": 0.825,
+          "nll": 0.33456574281720747,
+          "ece": 0.05944178222713341
+        },
+        "B_仅中心块": {
+          "top1": 0.8611111111111112,
+          "top2": 0.9444444444444444,
+          "bal_acc": 0.8222222222222222,
+          "nll": 0.4608878627385514,
+          "ece": 0.05152535289210607
+        }
+      },
+      "args": {
+        "pre": "colony_preprocessed",
+        "out": null,
+        "registry": null,
+        "classes": null,
+        "min_strains": 3,
+        "dup_inliers": 300,
+        "backbone": "swin_t",
+        "weights": null,
+        "skip_b": false,
+        "run_c": false,
+        "epochs_c": 15
+      },
+      "sha256": {
+        "final_model.joblib": "a0bfde8db2feb3024aa9e2e71d27b0a434e05ccc6da74f07644fc0520d0d3b47",
+        "manifest.csv": "2895b951b3a7588361b88231638de3a6c47db859c842aa84448cc5e50e3cb9b8"
+      }
+    },
+    "strains_per_section": {
+      "Flavi": 11,
+      "Fumigati": 9,
+      "Nigri": 10,
+      "Terrei": 6
+    }
+  },
+  "5_software": {
+    "hardware": {
+      "型号": "MacBook Pro",
+      "型号标识": "Mac15,6",
+      "芯片": "Apple M3 Pro",
+      "核心数": "12 (6 performance and 6 efficiency)",
+      "内存": "36 GB",
+      "系统": "macOS 15.6.1"
+    },
+    "envs": {
+      "显微用 python（fungal）": {
+        "python": "3.10.20",
+        "executable": "/Users/chunjiang/miniforge3/envs/fungal/bin/python",
+        "pkgs": {
+          "torch": "2.2.2",
+          "torchvision": "0.17.2",
+          "numpy": "1.26.4",
+          "pandas": "2.3.3",
+          "scikit-learn": "1.7.2",
+          "scipy": "1.15.3",
+          "opencv-python": "4.13.0.92",
+          "pillow": "12.2.0",
+          "pillow-heif": "1.8.0",
+          "matplotlib": "3.10.8",
+          "joblib": "1.5.3"
+        },
+        "mps": true,
+        "cuda": false
+      },
+      "菌落用 python（COLONY_PYTHON）": {
+        "python": "3.11.14",
+        "executable": "/Users/chunjiang/miniforge3/envs/ai/bin/python",
+        "pkgs": {
+          "torch": "2.9.1",
+          "torchvision": "0.24.1",
+          "numpy": "1.26.4",
+          "pandas": "3.0.1",
+          "scikit-learn": "1.8.0",
+          "scipy": "1.16.3",
+          "opencv-python": "4.11.0.86",
+          "opencv-python-headless": "4.10.0.84",
+          "pillow": "12.1.1",
+          "pillow-heif": "1.8.1",
+          "matplotlib": "3.10.8",
+          "joblib": "1.5.3"
+        },
+        "mps": true,
+        "cuda": false
+      }
+    }
+  },
+  "6_external_sources": {
+    "sources": [
+      [
+        "HSJ-C_10pics✅",
+        12,
+        0
+      ],
+      [
+        "eXPORT-2025-02-13",
+        39,
+        0
+      ],
+      [
+        "已整理",
+        83,
+        0
+      ],
+      [
+        "李一凡王燕闫津津王静老师真菌图_41pics",
+        41,
+        8
+      ],
+      [
+        "李艳老师真菌图_27pics",
+        27,
+        5
+      ],
+      [
+        "申克孢子丝_20pics✅",
+        20,
+        0
+      ],
+      [
+        "真菌-广药附属第一医院王若帆_12pic❌",
+        11,
+        0
+      ],
+      [
+        "真菌AI----谭盼_100pics",
+        100,
+        28
+      ],
+      [
+        "真菌图片-马琼琼_28pics",
+        28,
+        17
+      ],
+      [
+        "真菌图片（田蕴琦）_15pics",
+        15,
+        7
+      ],
+      [
+        "真菌图（麦老师、成老师、王老师）_56pics✅",
+        55,
+        0
+      ],
+      [
+        "细菌真菌图片-李珊_48pics",
+        48,
+        0
+      ],
+      [
+        "网络真菌图2_234pics",
+        233,
+        82
+      ],
+      [
+        "网络真菌图片_243pics",
+        242,
+        72
+      ],
+      [
+        "胡音音-南阳市中心医院-真菌AI_44pics",
+        43,
+        13
+      ],
+      [
+        "蒋宇杰农垦医院_18pics✅",
+        18,
+        0
+      ]
+    ],
+    "by_role": {
+      "no_answer": 108,
+      "excluded_direct": 66,
+      "external_colony": 177,
+      "external_micro": 232,
+      "dev_set_checked": 105,
+      "out_of_panel": 162,
+      "dev_cropped": 32,
+      "dev_source": 122,
+      "excluded_folder": 11
+    }
+  },
+  "sources": {
+    "micro_model": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_full_final",
+    "micro_dataset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4",
+    "micro_cv": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/swin_t_cv",
+    "colony_model": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/colony/20261020_2108",
+    "colony_dataset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_preprocessed"
+  },
+  "todo": [
+    "开发集菌株的收集起止年份：程序只能给出 EXIF 拍摄时间作参考，菌株分离年份请查 LIS 或菌种库登记",
+    "保藏菌株的来源（本院菌种库名称）",
+    "不能追溯菌株的旧截图大约对应多少株（如能从登记本估计）；否则论文只报告“分组数”",
+    "确认数据集 trainset_v4 建立时用的参数（是否 --replace_classes all_v2 --review review_images.csv，纳入了哪些来源）",
+    "决定是否补够 Nidulantes 菌株后重训菌落模型；若不补，论文需写明菌落模型只覆盖 4 个节",
+    "填写 external_sources_待填.csv：每个来源对应的医院全称、城市、是否与其他来源同属一家医院、是否网络图片"
+  ],
+  "status": [
+    [
+      1,
+      "✅",
+      "开发集株数"
+    ],
+    [
+      2,
+      "✅",
+      "显微数据集信息"
+    ],
+    [
+      3,
+      "✅",
+      "显微训练参数"
+    ],
+    [
+      4,
+      "✅",
+      "菌落模型"
+    ],
+    [
+      5,
+      "✅",
+      "软件版本与电脑型号"
+    ],
+    [
+      6,
+      "✍️",
+      "外部图像集来源：图片数已统计，医院名称需人工填写"
+    ]
+  ],
+  "generated": {
+    "at": "2026-11-10T09:47:42",
+    "version": "00_methods_collect v1.0 (2026-11-10)",
+    "argv": [
+      "00_methods_collect.py",
+      "--audit",
+      "/Users/chunjiang/Documents/真菌AI/Audit",
+      "--out_root",
+      "/Users/chunjiang/Documents/真菌AI/Audit/output",
+      "--micro_model",
+      "runs_v4/swin_t_full_final",
+      "--micro_trainset",
+      "trainset_v4",
+      "--colony_model",
+      "colony/20261020_2108",
+      "--recrop_root",
+      "/Users/chunjiang/Documents/真菌AI/原图_重截",
+      "--colony_raw",
+      "/Users/chunjiang/Documents/真菌AI/CNN/补拍_2026",
+      "--ext_root",
+      "/Users/chunjiang/Desktop/丝状真菌",
+      "--colony_python",
+      "/Users/chunjiang/miniforge3/envs/ai/bin/python",
+      "--clin_micro_model",
+      "runs_v4/swin_t_full_final",
+      "--clin_colony_model",
+      "colony/20261020_2108",
+      "--out",
+      "/Users/chunjiang/Documents/真菌AI/Audit/output/04_audit_review/methods_collect/20261110_0947"
+    ]
+  }
+}

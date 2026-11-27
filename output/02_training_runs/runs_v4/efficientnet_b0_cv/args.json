@@ -1,0 +1,19 @@
+{
+  "backbone": "efficientnet_b0",
+  "mode": "cv",
+  "trainset": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/trainset_micro.csv",
+  "class_names": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/trainset_v4/class_names.json",
+  "out_root": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs",
+  "folds": 5,
+  "only_fold": 0,
+  "epochs": 30,
+  "patience": 8,
+  "batch": 32,
+  "lr": 0.0001,
+  "weight_decay": 0.05,
+  "img_size": 224,
+  "workers": 4,
+  "seed": 42,
+  "no_pretrained": false,
+  "resume_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/efficientnet_b0_cv"
+}

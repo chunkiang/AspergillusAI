@@ -1,0 +1,33 @@
+{
+  "run_at": "2026-11-18T13:45:20",
+  "version": "03_colony_predict v1.0 (2026-10-20)",
+  "args": {
+    "model": "colony/20261020_2108",
+    "pre": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/colony_preprocessed",
+    "answers": "/Users/chunjiang/Documents/真菌AI/临床验证_2026/answers/answers_colony.csv",
+    "out": "/Users/chunjiang/Documents/真菌AI/Audit/output/03_external_eval/clinical/PILOT_20261118_134439/colony",
+    "t1": 0.7,
+    "t2": 0.2,
+    "sanity": false,
+    "force": false
+  },
+  "model_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/colony/20261020_2108",
+  "model_sha256": "a0bfde8db2feb3024aa9e2e71d27b0a434e05ccc6da74f07644fc0520d0d3b47",
+  "locked_sha256": "a0bfde8db2feb3024aa9e2e71d27b0a434e05ccc6da74f07644fc0520d0d3b47",
+  "manifest_sha256": "65a8411d008f506d0fea93049691997ad194a53219a4dff82dfa7e166bc45965",
+  "classes": [
+    "Fumigati",
+    "Flavi",
+    "Nigri",
+    "Terrei"
+  ],
+  "T": 1.1497479132761457,
+  "thresholds": {
+    "t1": 0.7,
+    "t2": 0.2
+  },
+  "n_evaluable": 20,
+  "n_excluded": 0,
+  "sanity": false,
+  "forced": false
+}

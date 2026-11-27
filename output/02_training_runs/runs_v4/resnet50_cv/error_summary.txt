@@ -1,0 +1,73 @@
+run: /Users/chunjiang/Documents/真菌AI/Audit/output/02_training_runs/runs_v4/resnet50_cv    验证图片: 3121    准确率: 0.916
+
+=== 每类：召回率 / 主要错分去向 / 错分时正确答案排第几 ===
+Alternaria                   n=343  召回 0.97  错成: Curvularia×5、Bipolaris×2、Histoplasma capsulatum×1 第2名×8 第3名×1 第5名×1
+A. flavus                    n= 85  召回 0.75  错成: A. fumigatus×10、A. niger×3、Mucor×3       第2名×3 第3名×3 第4名×1  ←
+A. fumigatus                 n= 95  召回 0.67  错成: A. flavus×8、A. terreus×8、Lichtheimia×5   第2名×13 第3名×7 第4名×8  ←
+A. glaucus                   n= 64  召回 0.47  错成: A. flavus×18、A. versicolor×13、Scedosporium×2 第2名×7 第3名×8 第4名×4  ←
+A. nidulans                  n= 38  召回 0.79  错成: A. fumigatus×7、A. versicolor×1           第2名×4 第3名×2 第4名×1  ←
+A. niger                     n= 44  召回 0.84  错成: Mucor×4、A. flavus×2、Lichtheimia×1        第2名×3 第3名×1 第7名×1
+A. terreus                   n= 80  召回 0.55  错成: A. flavus×25、A. fumigatus×9、A. versicolor×1 第2名×2 第3名×11 第4名×8  ←
+A. versicolor                n= 78  召回 0.94  错成: A. fumigatus×4、Talaromyces marneffei×1   第2名×1 第14名×2 第16名×1
+Bipolaris                    n=208  召回 0.99  错成: Alternaria×2                             第2名×1 第3名×1
+Coprinellus/Coprinopsis      n=181  召回 1.00  错成: —                                        
+Cunninghamella               n= 76  召回 0.95  错成: Histoplasma capsulatum×1、Scedosporium×1、A. fumigatus×1 第2名×1 第3名×3
+Curvularia                   n= 47  召回 0.94  错成: Sporothrix schenckii complex×2、Alternaria×1 第2名×1 第8名×1 第14名×1
+Fonsecaea                    n=165  召回 0.99  错成: Alternaria×1                             第2名×1
+Fusarium                     n=167  召回 0.99  错成: Talaromyces marneffei×2                  第2名×2
+Histoplasma capsulatum       n=205  召回 0.99  错成: Coprinellus/Coprinopsis×1、Schizophyllum×1 第2名×2
+Lichtheimia                  n= 84  召回 0.79  错成: Mucor×7、A. versicolor×3、A. flavus×2      第2名×10 第3名×5 第4名×3  ←
+Lomentospora prolificans     n=141  召回 1.00  错成: —                                        
+Mucor                        n= 14  召回 0.36  错成: A. niger×3、Rhizopus×3、A. glaucus×2       第2名×3 第3名×1 第4名×1  ←
+Paecilomyces                 n= 50  召回 1.00  错成: —                                        
+Penicillium                  n= 66  召回 0.98  错成: Talaromyces marneffei×1                  第2名×1
+Rhizopus                     n= 26  召回 0.88  错成: Alternaria×1、Mucor×1、A. versicolor×1     第2名×1 第3名×1 第16名×1
+Scedosporium                 n=273  召回 0.98  错成: Fusarium×2、A. versicolor×1、Sporothrix schenckii complex×1 第3名×2 第5名×1 第6名×1
+Schizophyllum                n=108  召回 0.50  错成: Lichtheimia×34、Scedosporium×7、A. flavus×4 第2名×4 第3名×1 第4名×2  ←
+Scopulariopsis               n=187  召回 1.00  错成: —                                        
+Sporothrix schenckii complex n=245  召回 1.00  错成: —                                        
+Talaromyces marneffei        n= 51  召回 0.88  错成: A. fumigatus×2、Paecilomyces×2、Coprinellus/Coprinopsis×1 第7名×2 第8名×2 第9名×1
+
+=== 被误判进来最多的类（精确率低的原因） ===
+Histoplasma capsulatum       ← Alternaria×1、Cunninghamella×1、Lichtheimia×1、A. fumigatus×1
+A. flavus                    ← A. terreus×25、A. glaucus×18、A. fumigatus×8、Schizophyllum×4
+Talaromyces marneffei        ← Fusarium×2、Penicillium×1、A. fumigatus×1、A. versicolor×1
+A. fumigatus                 ← A. flavus×10、A. terreus×9、A. nidulans×7、A. versicolor×4
+Fusarium                     ← Schizophyllum×3、Scedosporium×2、Talaromyces marneffei×1
+A. versicolor                ← A. glaucus×13、A. flavus×3、Lichtheimia×3、A. fumigatus×2
+Scedosporium                 ← Schizophyllum×7、A. glaucus×2、Cunninghamella×1、Mucor×1
+Mucor                        ← Lichtheimia×7、A. niger×4、A. flavus×3、A. fumigatus×2
+
+=== 按分组（菌株 / 原图 / 来源文件夹）统计：整组都错说明是“没见过的菌株”泛化失败 ===
+A. terreus             v2|MCW-M-C-20                                                n=  4  正确 0.00  多数被判为 A. fumigatus
+A. flavus              v2|JYJ-5-2黄曲霉                                                n=  3  正确 0.00  多数被判为 A. fumigatus
+A. flavus              crop|WEB2-WL-C-165                                           n=  4  正确 0.00  多数被判为 Mucor
+A. flavus              crop|WEB2-WL-C-154                                           n=  3  正确 0.00  多数被判为 A. fumigatus
+A. fumigatus           v2|MCW-M-C-31                                                n=  5  正确 0.00  多数被判为 Lichtheimia
+A. flavus              crop|WEB1-WL-C-141                                           n=  6  正确 0.00  多数被判为 A. versicolor
+A. fumigatus           v2|WEB1-WL-C-212                                             n=  8  正确 0.00  多数被判为 A. terreus
+A. versicolor          v2|WEB2-WL-C-39                                              n=  4  正确 0.00  多数被判为 A. fumigatus
+A. nidulans            v2|HSJ-H-C-02_构巢曲霉                                           n=  8  正确 0.00  多数被判为 A. fumigatus
+A. terreus             v2strain|土曲霉/土曲-SDA                                          n= 32  正确 0.00  多数被判为 A. flavus
+Schizophyllum          v2strain|裂褶菌/徐和平_裂褶菌_3                                       n= 51  正确 0.00  多数被判为 Lichtheimia
+Talaromyces marneffei  v2|MCW-M-C-14                                                n=  6  正确 0.00  多数被判为 A. fumigatus
+A. glaucus             v2strain|灰绿曲霉/徐和平_灰绿曲霉_4                                     n= 41  正确 0.20  多数被判为 A. flavus
+A. fumigatus           v2|WEB1-WL-C-69                                              n=  9  正确 0.22  多数被判为 A. flavus
+Cunninghamella         v2strain|小克银汉霉/徐和平_小克银汉霉_4                                   n=  3  正确 0.33  多数被判为 A. fumigatus
+A. niger               v2strain|黑曲霉/PKUPH_黑曲霉_1                                     n=  3  正确 0.33  多数被判为 Mucor
+A. fumigatus           v2|WEB2-WL-C-178                                             n=  3  正确 0.33  多数被判为 A. niger
+Lichtheimia            crop|WEB2-WL-C-134                                           n= 14  正确 0.50  多数被判为 Lichtheimia
+Lichtheimia            crop|WEB2-WL-C-126                                           n= 17  正确 0.53  多数被判为 Lichtheimia
+A. fumigatus           v2|WEB1-WL-C-206                                             n=  5  正确 0.60  多数被判为 A. fumigatus
+Lichtheimia            crop|WEB2-WL-C-133                                           n=  5  正确 0.60  多数被判为 Lichtheimia
+A. fumigatus           v2|HSJ-H-C-08_烟曲霉                                            n=  5  正确 0.60  多数被判为 A. fumigatus
+A. fumigatus           v2|WEB1-WL-C-143                                             n=  3  正确 0.67  多数被判为 A. fumigatus
+A. niger               crop|WEB1-WL-C-13                                            n=  3  正确 0.67  多数被判为 A. niger
+Curvularia             v2strain|弯孢霉/徐和平_弯孢霉_1                                       n=  6  正确 0.67  多数被判为 Curvularia
+
+=== 按来源 ===
+source        size   mean
+-------------------------
+crops_new      125  0.688
+crops_v2      1237  0.833
+dev_original  1759  0.990

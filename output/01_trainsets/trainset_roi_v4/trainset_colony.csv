@@ -1,0 +1,182 @@
+﻿path,modality,train_class,species_cn,source,site,cv_group,group_rule,crop_size,phase,structure,stage,review_tag,class_idx,group_size
+/Users/chunjiang/Documents/真菌AI/CNN/normal/00/W-B-30_土曲霉菌_001.jpg,colony,Aspergillus terreus (sect. Terrei),土曲霉,dev_original,PUPH,W-B-30,contrib_code,800,A 本期：训练 + 外部验证,,,,6,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_000.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_001.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_002.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_003.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_004.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/01/链格孢菌落_005.jpg,colony,Alternaria,链格孢,dev_original,PUPH,img|01/链格孢菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,0,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_000.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_001.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_002.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_003.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_004.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_005.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_006.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_007.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_008.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_009.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_010.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_011.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_012.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_013.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_014.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_014.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_015.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_015.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_016.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_016.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_017.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_017.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_018.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_018.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_019.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_019.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_020.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_020.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/05/黑曲霉菌落_021.jpg,colony,Aspergillus niger (sect. Nigri),黑曲霉,dev_original,PUPH,img|05/黑曲霉菌落_021.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,5,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/W-B-58_黄曲霉_001.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,W-B-58,contrib_code,800,A 本期：训练 + 外部验证,,,,1,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/W-B-58_黄曲霉_002.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,W-B-58,contrib_code,800,A 本期：训练 + 外部验证,,,,1,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/W-B-58_黄曲霉_003.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,W-B-58,contrib_code,800,A 本期：训练 + 外部验证,,,,1,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_000.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_001.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_002.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_003.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_004.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_005.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_006.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_007.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_008.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_009.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_010.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_011.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_012.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/06/黄曲霉菌落_013.jpg,colony,Aspergillus flavus (sect. Flavi),黄曲霉,dev_original,PUPH,img|06/黄曲霉菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,1,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_000.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_001.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_002.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_003.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_004.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_005.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_006.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/07/尖端赛多孢菌落_007.jpg,colony,Scedosporium,尖端赛多孢,dev_original,PUPH,img|07/尖端赛多孢菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,21,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-14_烟曲霉_001.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-14,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-14_烟曲霉_002.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-14,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-14_烟曲霉_003.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-14,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-15_烟曲霉_001.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-15,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-15_烟曲霉_002.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-15,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/08/W-B-15_烟曲霉_003.jpg,colony,Aspergillus fumigatus (sect. Fumigati),烟曲霉,dev_original,PUPH,W-B-15,contrib_code,800,A 本期：训练 + 外部验证,,,,2,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-21_小孢根霉_001.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-21,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-21_小孢根霉_002.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-21,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-21_小孢根霉_003.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-21,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-21_小孢根霉_004.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-21,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-24_小孢根霉_001.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-24,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-24_小孢根霉_002.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-24,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-24_小孢根霉_003.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-24,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/09/W-B-24_小孢根霉_004.jpg,colony,Rhizopus,微小根霉,dev_original,PUPH,W-B-24,contrib_code,800,A 本期：训练 + 外部验证,,,,20,4
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_000.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_001.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_002.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_003.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_004.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_005.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_006.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_007.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_008.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_009.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_010.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_011.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_012.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_013.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_014.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_014.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_015.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_015.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_016.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_016.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_017.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_017.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_018.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_018.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_019.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_019.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/32/镰刀菌菌落_020.jpg,colony,Fusarium,镰刀菌,dev_original,PUPH,img|32/镰刀菌菌落_020.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,13,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_000.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_001.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_002.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_003.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_004.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_005.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_006.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_007.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_008.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_009.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_010.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_011.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_012.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_013.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/33/多育赛多孢菌落_014.jpg,colony,Lomentospora prolificans,多育赛多孢,dev_original,PUPH,img|33/多育赛多孢菌落_014.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,16,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_000.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_001.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_002.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_003.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_004.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_005.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_006.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_007.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_008.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_009.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_010.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_011.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/35/小克银汉菌落_012.jpg,colony,Cunninghamella,小克银汉,dev_original,PUPH,img|35/小克银汉菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,10,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/36/帚霉菌落_000.jpg,colony,Scopulariopsis,帚霉,dev_original,PUPH,img|36/帚霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,23,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/36/帚霉菌落_001.jpg,colony,Scopulariopsis,帚霉,dev_original,PUPH,img|36/帚霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,23,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/36/帚霉菌落_002.jpg,colony,Scopulariopsis,帚霉,dev_original,PUPH,img|36/帚霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,23,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/36/帚霉菌落_003.jpg,colony,Scopulariopsis,帚霉,dev_original,PUPH,img|36/帚霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,23,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/36/帚霉菌落_004.jpg,colony,Scopulariopsis,帚霉,dev_original,PUPH,img|36/帚霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,23,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_000.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_001.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_002.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_003.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_004.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_005.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_006.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_007.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_008.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_009.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_010.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_011.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_012.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_013.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/37/弯孢霉菌落_014.jpg,colony,Curvularia,弯孢霉,dev_original,PUPH,img|37/弯孢霉菌落_014.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,11,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/W-B-61_拟青梅_001.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,W-B-61,contrib_code,800,A 本期：训练 + 外部验证,,,,18,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/W-B-61_拟青梅_002.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,W-B-61,contrib_code,800,A 本期：训练 + 外部验证,,,,18,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/W-B-61_拟青梅_003.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,W-B-61,contrib_code,800,A 本期：训练 + 外部验证,,,,18,3
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_000.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_001.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_002.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_003.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_004.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_005.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_006.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_007.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_008.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_009.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/38/拟青霉菌落_010.jpg,colony,Paecilomyces,拟青霉,dev_original,PUPH,img|38/拟青霉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,18,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_000.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_001.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_002.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_003.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_004.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_005.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_006.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_006.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_007.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_007.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_008.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_008.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_009.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_009.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_010.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_010.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_011.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_011.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_012.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_012.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_013.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_013.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_014.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_014.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_015.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_015.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_016.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_016.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_017.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_017.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_018.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_018.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_019.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_019.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_020.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_020.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_021.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_021.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_022.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_022.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/40/杂色曲霉菌落_023.jpg,colony,Aspergillus versicolor (sect. Versicolores),杂色曲霉,dev_original,PUPH,img|40/杂色曲霉菌落_023.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,7,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_000.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_000.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_001.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_001.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_002.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_002.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_003.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_003.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_004.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_004.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1
+/Users/chunjiang/Documents/真菌AI/CNN/normal/41/毛霉菌落_005.jpg,colony,Mucor,毛霉,dev_original,PUPH,img|41/毛霉菌落_005.jpg,date_mtime,800,A 本期：训练 + 外部验证,,,,17,1

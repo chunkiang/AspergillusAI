@@ -1,0 +1,70 @@
+{
+  "locked_at": "2026-10-23T09:25:25",
+  "version": "02_colony_train v1.2 (2026-10-23)",
+  "selected_method": "A",
+  "selection_rule": "lowest OOF strain-level NLL among A and B",
+  "temperature": 1.1497479132761457,
+  "C_final": 3,
+  "classes": [
+    "Fumigati",
+    "Flavi",
+    "Nigri",
+    "Terrei"
+  ],
+  "n_strains": 36,
+  "n_cv_groups": 33,
+  "summary": {
+    "A": {
+      "top1": 0.9444444444444444,
+      "top2": 1.0,
+      "bal_acc": 0.95,
+      "nll": 0.2684110718886898,
+      "ece": 0.06112546471447197
+    },
+    "A_无直径": {
+      "top1": 0.9444444444444444,
+      "top2": 1.0,
+      "bal_acc": 0.95,
+      "nll": 0.29895486838655966,
+      "ece": 0.058688066553401766
+    },
+    "A_仅中心块": {
+      "top1": 0.9444444444444444,
+      "top2": 1.0,
+      "bal_acc": 0.9333333333333333,
+      "nll": 0.18476850139777282,
+      "ece": 0.02791374865510583
+    },
+    "B": {
+      "top1": 0.8333333333333334,
+      "top2": 0.9166666666666666,
+      "bal_acc": 0.7944444444444444,
+      "nll": 0.5118754673983731,
+      "ece": 0.03861811099412481
+    },
+    "B_仅中心块": {
+      "top1": 0.7777777777777778,
+      "top2": 0.8611111111111112,
+      "bal_acc": 0.7161616161616161,
+      "nll": 0.7246797378821448,
+      "ece": 0.07357879210013908
+    }
+  },
+  "args": {
+    "pre": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_20261023_0853",
+    "out": "20261023_0924",
+    "registry": null,
+    "classes": null,
+    "min_strains": 3,
+    "dup_inliers": 300,
+    "backbone": "efficientnet_b0",
+    "weights": null,
+    "skip_b": false,
+    "run_c": false,
+    "epochs_c": 15
+  },
+  "sha256": {
+    "final_model.joblib": "00abd99c684e1d27b3720fa6a3a7d2c7481daef82c8b083efc60a91d833acb51",
+    "manifest.csv": "2895b951b3a7588361b88231638de3a6c47db859c842aa84448cc5e50e3cb9b8"
+  }
+}

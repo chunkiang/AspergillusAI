@@ -1,0 +1,23 @@
+{
+  "kind": "colony",
+  "name": "colony_20261023_0853",
+  "created": "2026-10-23 08:54",
+  "created_by": "train_4_dataset.zsh",
+  "source_root": "/Users/chunjiang/Documents/真菌AI/CNN/补拍_2026",
+  "ann_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_annotations",
+  "build_command": "/Users/chunjiang/miniforge3/envs/ai/bin/python 01_colony_preprocess.py build --root /Users/chunjiang/Documents/真菌AI/CNN/补拍_2026 --ann_dir /Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_annotations --out /Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_20261023_0853 --views O",
+  "n_photos": 42,
+  "n_front": 42,
+  "n_main": 37,
+  "n_strains_main": 37,
+  "strains_by_group": {
+    "Flavi": 11,
+    "Fumigati": 9,
+    "Nidulantes": 1,
+    "Nigri": 10,
+    "Terrei": 6
+  },
+  "sha256": {
+    "manifest.csv": "2895b951b3a7588361b88231638de3a6c47db859c842aa84448cc5e50e3cb9b8"
+  }
+}

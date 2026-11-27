@@ -1,0 +1,44 @@
+{
+  "time": "2026-11-18 13:44:52",
+  "locked_at": "未核对（--no_lock，仅供调试）",
+  "models": [
+    {
+      "dir": "swin_t_full_final",
+      "weights": {
+        "final.pt": "b3b75ba7ffd430eb0b5b87ded254ef43"
+      },
+      "class_names": [
+        "Alternaria",
+        "Aspergillus flavus (sect. Flavi)",
+        "Aspergillus fumigatus (sect. Fumigati)",
+        "Aspergillus glaucus (sect. Aspergillus)",
+        "Aspergillus nidulans (sect. Nidulantes)",
+        "Aspergillus niger (sect. Nigri)",
+        "Aspergillus terreus (sect. Terrei)",
+        "Aspergillus versicolor (sect. Versicolores)",
+        "Bipolaris",
+        "Coprinellus/Coprinopsis",
+        "Cunninghamella",
+        "Curvularia",
+        "Fonsecaea",
+        "Fusarium",
+        "Histoplasma capsulatum",
+        "Lichtheimia",
+        "Lomentospora prolificans",
+        "Mucor",
+        "Paecilomyces",
+        "Penicillium",
+        "Rhizopus",
+        "Scedosporium",
+        "Schizophyllum",
+        "Scopulariopsis",
+        "Sporothrix schenckii complex",
+        "Talaromyces marneffei"
+      ]
+    }
+  ],
+  "table": "/Users/chunjiang/Documents/真菌AI/临床验证_2026/01_roi/roi_clinical_table.csv",
+  "table_md5": "a7189a05671482aaf0e7ac23c1e8330a",
+  "p_min": 0.7,
+  "gap_min": 0.2
+}

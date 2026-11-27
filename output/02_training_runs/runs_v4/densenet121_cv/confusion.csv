@@ -1,0 +1,27 @@
+﻿train_class,A. flavus,A. fumigatus,A. glaucus,A. nidulans,A. niger,A. terreus,A. versicolor,Alternaria,Bipolaris,Coprinellus/Coprinopsis,Cunninghamella,Curvularia,Fonsecaea,Fusarium,Histoplasma capsulatum,Lichtheimia,Lomentospora prolificans,Mucor,Paecilomyces,Penicillium,Rhizopus,Scedosporium,Schizophyllum,Scopulariopsis,Sporothrix schenckii complex,Talaromyces marneffei
+A. flavus,60,14,0,0,6,2,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+A. fumigatus,7,73,0,0,0,7,7,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+A. glaucus,0,0,37,0,0,0,26,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+A. nidulans,0,5,0,32,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+A. niger,1,1,0,0,40,0,0,0,0,0,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0
+A. terreus,0,25,0,0,0,44,11,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+A. versicolor,0,4,0,0,0,0,72,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,1
+Alternaria,0,0,0,0,0,0,0,332,2,0,0,9,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Bipolaris,0,0,0,0,0,0,0,1,207,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Coprinellus/Coprinopsis,0,0,0,0,0,0,0,0,0,181,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Cunninghamella,0,0,0,2,0,0,0,0,0,0,73,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0
+Curvularia,0,0,0,0,0,0,0,0,0,0,0,47,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fonsecaea,0,0,0,0,0,0,0,0,0,0,0,0,165,0,0,0,0,0,0,0,0,0,0,0,0,0
+Fusarium,0,0,0,0,0,0,0,0,0,0,0,0,0,167,0,0,0,0,0,0,0,0,0,0,0,0
+Histoplasma capsulatum,0,0,0,0,0,0,0,0,0,1,0,0,0,0,204,0,0,0,0,0,0,0,0,0,0,0
+Lichtheimia,2,4,0,0,0,0,0,0,0,0,0,0,0,0,0,76,0,1,0,0,1,0,0,0,0,0
+Lomentospora prolificans,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,141,0,0,0,0,0,0,0,0,0
+Mucor,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,1,7,0,0,5,0,0,0,0,0
+Paecilomyces,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,48,0,0,0,0,0,1,0
+Penicillium,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,66,0,0,0,0,0,0
+Rhizopus,0,0,0,0,0,1,1,1,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0
+Scedosporium,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,271,0,0,1,0
+Schizophyllum,22,0,0,0,0,0,0,0,0,0,1,0,5,0,4,12,0,0,0,0,0,1,59,2,2,0
+Scopulariopsis,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,187,0,0
+Sporothrix schenckii complex,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,245,0
+Talaromyces marneffei,0,3,0,0,0,0,0,0,0,2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,45

@@ -1,0 +1,36 @@
+命令: python 01_build_trainset.py --replace_classes all_v2 --review review_images.csv --add_roi --exclude_sources dev_checked --out trainset_roi_v4
+按截图来源剔除 ['dev_checked']：显微截图 68 张（JYJ 11、SK 57）
+类别数: 26    显微截图: 4010    菌落图: 181
+
+train_class                                  总数  原有  打勾截图  新截图  规范截图  外部ROI  分组数  可追溯分组  菌落图  阶段
+------------------------------------------------------------------------------------------------------------------------------
+Alternaria                                    398   237         0       0       106       55     141         281       6  A
+Aspergillus flavus (sect. Flavi)              102     0         0      52        33       17      25         102      17  A
+Aspergillus fumigatus (sect. Fumigati)        221     0         0       0        95      126      43         221       6  A
+Aspergillus glaucus (sect. Aspergillus)        67     0         0       0        64        3       5          67       0  A
+Aspergillus nidulans (sect. Nidulantes)        75     0         0       0        38       37      21          75       0  A
+Aspergillus niger (sect. Nigri)                50     0         0      13        31        6      39          50      22  A
+Aspergillus terreus (sect. Terrei)            119     0         0       0        80       39      22         119       1  A
+Aspergillus versicolor (sect. Versicolores)   109     0         0       0        78       31      33         109      24  A
+Bipolaris                                     208   135         0       0        73        0     138          73       0  B
+Coprinellus/Coprinopsis                       181   181         0       0         0        0     181           0       0  A
+Cunninghamella                                 88    44         0       0        32       12      56          44      13  A
+Curvularia                                    185     0         0       0        47      138      23         185      15  A
+Fonsecaea                                     198   165         0       0         0       33     166          33       0  A
+Fusarium                                      326     0         0       0       167      159      27         326      21  A
+Histoplasma capsulatum                        205   120         0       0        85        0     130          85       0  B
+Lichtheimia                                    89    24         0      60         0        5      35          65       0  A
+Lomentospora prolificans                      141   106         0       0        35        0     112          35      15  A
+Mucor                                          32     1         0       0        13       18      13          31       6  A
+Paecilomyces                                   55     0         0       0        50        5       8          55      14  A
+Penicillium                                   109    66         0       0         0       43      74          43       0  A
+Rhizopus                                       37     0         0       0        26       11      14          37       8  A
+Scedosporium                                  326   248         0       0        25       53     258          78       8  A
+Schizophyllum                                 130     0         0       0       108       22       7         130       0  A
+Scopulariopsis                                190   187         0       0         0        3     188           3       5  A
+Sporothrix schenckii complex                  298   245         0       0         0       53     247          53       0  A
+Talaromyces marneffei                          71     0         0       0        51       20      18          71       0  A
+
+按来源（site）：PUPH 2795、WEB2 421、WEB1 403、TP 125、MCW 114、MQQ 50、LYF 38、HYY 34、HSJ 15、LY 10、JYJ 3、TYQ 2
+最多/最少类张数比: 12.4
+本期不纳入、已排除的旧类别（张数）: 无绿藻 205、光滑念珠菌 143、白念珠菌 129、耳念珠菌 105、热带念珠菌 101、克柔念珠菌 100、罗伦特隐球菌 100、酿酒酵母 100、布鲁菌革兰染色 45、阿萨希毛孢子菌 44、隐球菌 19

@@ -1,0 +1,6 @@
+运行时间: 2026-10-21 15:19:06
+模型: output/02_training_runs/runs_v4/swin_t_full_final/final.pt
+模型 sha256: 369feae0c33c47ed77fb147bddacfa10e3dd68ca39ebc5fa4817696c71987380
+训练集: trainset_v4
+测试集: /Users/chunjiang/Documents/真菌AI/CNN/roi_test
+强制重跑: 0

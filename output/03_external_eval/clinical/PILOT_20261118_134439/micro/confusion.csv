@@ -1,0 +1,11 @@
+﻿参考\预测,Alternaria,Aspergillus fumigatus (sect. Fumigati),Aspergillus glaucus (sect. Aspergillus),Aspergillus niger (sect. Nigri),Aspergillus terreus (sect. Terrei),Aspergillus versicolor (sect. Versicolores),Bipolaris,Cunninghamella,Fusarium,Paecilomyces,Scedosporium,Sporothrix schenckii complex
+Alternaria,1,0,0,0,0,0,0,0,0,0,0,0
+Aspergillus flavus (sect. Flavi),0,0,0,5,0,0,0,0,0,0,0,0
+Aspergillus fumigatus (sect. Fumigati),0,0,1,0,8,1,0,0,0,0,0,0
+Aspergillus nidulans (sect. Nidulantes),0,1,0,0,0,0,0,0,0,0,0,0
+Aspergillus niger (sect. Nigri),0,0,0,4,0,0,0,0,0,0,0,0
+Aspergillus terreus (sect. Terrei),0,0,0,0,0,1,0,0,0,0,0,0
+Aspergillus versicolor (sect. Versicolores),0,0,0,0,0,1,0,0,0,0,0,0
+Cunninghamella,0,0,0,0,0,0,0,1,0,1,0,0
+Curvularia,0,0,0,0,0,0,1,0,0,0,1,0
+Fusarium,0,0,0,0,0,0,0,0,2,0,0,1

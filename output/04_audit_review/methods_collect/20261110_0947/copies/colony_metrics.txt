@@ -1,0 +1,67 @@
+===== 菌落分支：株级交叉验证结果 =====
+运行时间 2026-10-20 21:08；02_colony_train v1.1 (2026-10-20)
+数据：/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_preprocessed
+正面照来自 42 株；主分析排除 5 株（PUPH-FUM-006, PUPH-NID-002, PUPH-NID-003, PUPH-NID-004, PUPH-TER-002）
+株数不足、本轮不纳入的类别：Nidulantes（1 株）
+疑似同一平皿，合并为同一 CV 组（不改株号）：PUPH-FLA-001+PUPH-FLA-005(1914)，PUPH-FLA-007+PUPH-FLA-009(1291)，PUPH-TER-003+PUPH-TER-004(569)
+纳入类别与株数：Fumigati 9，Flavi 11，Nigri 10，Terrei 6；共 36 株、33 个 CV 组
+交叉验证：A/B 为留一组交叉验证（LOGO），正则强度在训练折内分层 3 折选择（按 NLL）
+预设选择规则：A、B 中 OOF NLL 最低者进入融合；其后温度缩放并以全部株重训
+
+----- 方案 A：菌落颜色（CIELAB）+ 直径 → 逻辑回归【主分析候选】 -----
+top1 准确率          0.944（34/36，95% CI 0.813–0.993）
+top2 准确率          1.000（36/36，95% CI 0.903–1.000）
+平衡准确率           0.950
+macro-F1             0.942
+NLL                  0.268
+ECE（5 箱）          0.061
+每类：
+  类别             株数   判对     敏感度  95% CI         预测为该类    PPV
+  Fumigati        9    9    1.00  0.66–1.00        9    1.00
+  Flavi          11   11    1.00  0.72–1.00       12    0.92
+  Nigri          10    8    0.80  0.44–0.97        8    1.00
+  Terrei          6    6    1.00  0.54–1.00        7    0.86
+混淆矩阵（行 = 真实，列 = 预测）：
+                Fumigati     Flavi     Nigri    Terrei
+  Fumigati             9         0         0         0
+  Flavi                0        11         0         0
+  Nigri                0         1         8         1
+  Terrei               0         0         0         6
+  Fumigati→Terrei 误判 0，Terrei→Fumigati 误判 0
+  Flavi→Nigri 误判 0，Nigri→Flavi 误判 1
+  所选正则强度 C（各折）：中位数 10
+
+消融 A_无直径：top1 0.944，NLL 0.299
+消融 A_仅中心块：top1 0.944，NLL 0.185
+
+----- 方案 B：冻结 swin_t 特征 → 逻辑回归【主分析候选】 -----
+top1 准确率          0.861（31/36，95% CI 0.705–0.953）
+top2 准确率          0.972（35/36，95% CI 0.855–0.999）
+平衡准确率           0.825
+macro-F1             0.825
+NLL                  0.335
+ECE（5 箱）          0.059
+每类：
+  类别             株数   判对     敏感度  95% CI         预测为该类    PPV
+  Fumigati        9    9    1.00  0.66–1.00       11    0.82
+  Flavi          11   11    1.00  0.72–1.00       12    0.92
+  Nigri          10    8    0.80  0.44–0.97        9    0.89
+  Terrei          6    3    0.50  0.12–0.88        4    0.75
+混淆矩阵（行 = 真实，列 = 预测）：
+                Fumigati     Flavi     Nigri    Terrei
+  Fumigati             9         0         0         0
+  Flavi                0        11         0         0
+  Nigri                0         1         8         1
+  Terrei               2         0         1         3
+  Fumigati→Terrei 误判 0，Terrei→Fumigati 误判 2
+  Flavi→Nigri 误判 0，Nigri→Flavi 误判 1
+  所选正则强度 C（各折）：中位数 0.1
+
+消融 B_仅中心块：top1 0.861，NLL 0.461
+
+===== 选择与校准 =====
+OOF NLL：A 0.268，B 0.335 → 选定方案 A
+温度缩放 T = 1.150；校准前 NLL 0.268、ECE 0.061 → 校准后 NLL 0.264、ECE 0.047
+（T 在 OOF 预测上拟合；前瞻验证前随模型一并锁定）
+
+最终模型：final_model.joblib（sha256 a0bfde8db2feb302…）

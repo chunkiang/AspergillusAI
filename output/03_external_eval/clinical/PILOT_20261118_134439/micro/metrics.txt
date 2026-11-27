@@ -1,0 +1,111 @@
+===== 前瞻临床验证：结果 =====
+评估时间 2026-11-18 13:44；锁定 未核对（--no_lock，仅供调试）
+模型：swin_t_full_final
+判读规则：株级 = ROI 概率平均；top1 < 0.7 或 top1 − top2 < 0.2 → 需复核
+菌株：集内 30 株，集外 0 株；ROI 1013 个（每株中位数 15，范围 4–161）
+（截图阶段被跳过、没有 ROI 的菌株见 roi_clinical 文件夹里的 unblind_summary.txt，论文需一并报告）
+
+----- 主要终点（集内菌株） -----
+top1 准确率          0.300（9/30，95% CI 0.147–0.494）
+
+----- 次要终点 -----
+top2 准确率          0.367（11/30，95% CI 0.199–0.561）
+属一级准确率         0.867（26/30，95% CI 0.693–0.962）
+临床类群一级准确率   0.867（26/30，95% CI 0.693–0.962）   （曲霉属合一、毛霉目合一、其余按属）
+macro-F1             0.358   （仅计参考集中出现的类别）
+平衡准确率           0.417
+复核标记比例         0.700（21/30，95% CI 0.506–0.853）
+未标记（可直接报告）的准确率  0.667（6/9，95% CI 0.299–0.925）
+标记复核的准确率     0.143（3/21，95% CI 0.030–0.363）
+标记复核中 top2 含正确答案   0.190（4/21，95% CI 0.054–0.419）
+ECE（10 箱）         0.294
+
+----- 集外菌种（开放集） -----
+被标记复核的比例     —（n=0）
+开放集 AUROC         nan   （1 − top1 概率区分集外/集内；n 集外=0）
+
+----- 每类（集内菌株） -----
+                                         类别  菌株数  判对  敏感度   敏感度95CI  预测为该类  PPV   F1
+                                 Alternaria    1   1 1.00 0.03–1.00      1 1.00 1.00
+           Aspergillus flavus (sect. Flavi)    5   0 0.00 0.00–0.52      0      0.00
+     Aspergillus fumigatus (sect. Fumigati)   10   0 0.00 0.00–0.31      1 0.00 0.00
+    Aspergillus glaucus (sect. Aspergillus)    0   0                     1 0.00     
+    Aspergillus nidulans (sect. Nidulantes)    1   0 0.00 0.00–0.97      0      0.00
+            Aspergillus niger (sect. Nigri)    4   4 1.00 0.40–1.00      9 0.44 0.62
+         Aspergillus terreus (sect. Terrei)    1   0 0.00 0.00–0.97      8 0.00 0.00
+Aspergillus versicolor (sect. Versicolores)    1   1 1.00 0.03–1.00      3 0.33 0.50
+                                  Bipolaris    0   0                     1 0.00     
+                             Cunninghamella    2   1 0.50 0.01–0.99      1 1.00 0.67
+                                 Curvularia    2   0 0.00 0.00–0.84      0      0.00
+                                   Fusarium    3   2 0.67 0.09–0.99      2 1.00 0.80
+                               Paecilomyces    0   0                     1 0.00     
+                               Scedosporium    0   0                     1 0.00     
+               Sporothrix schenckii complex    0   0                     1 0.00     
+
+----- 混淆矩阵（株级；行 = 参考，列 = 预测） -----
+                Alternaria  A. fumigatus  A. glaucus  A. niger  A. terreus  A. versicolor  Bipolaris  Cunninghamella  Fusarium  Paecilomyces  Scedosporium  Sporothrix schenckii complex
+参考\预测                                                                                                                                                                                   
+Alternaria               1             0           0         0           0              0          0               0         0             0             0                             0
+A. flavus                0             0           0         5           0              0          0               0         0             0             0                             0
+A. fumigatus             0             0           1         0           8              1          0               0         0             0             0                             0
+A. nidulans              0             1           0         0           0              0          0               0         0             0             0                             0
+A. niger                 0             0           0         4           0              0          0               0         0             0             0                             0
+A. terreus               0             0           0         0           0              1          0               0         0             0             0                             0
+A. versicolor            0             0           0         0           0              1          0               0         0             0             0                             0
+Cunninghamella           0             0           0         0           0              0          0               1         0             1             0                             0
+Curvularia               0             0           0         0           0              0          1               0         0             0             1                             0
+Fusarium                 0             0           0         0           0              0          0               0         2             0             0                             1
+
+----- 混淆矩阵（ROI 级；行 = 参考，列 = 预测） -----
+                Alternaria  A. flavus  A. fumigatus  A. glaucus  A. niger  A. terreus  A. versicolor  Bipolaris  Coprinellus/Coprinopsis  Cunninghamella  Curvularia  Fusarium  Histoplasma capsulatum  Lichtheimia  Mucor  Paecilomyces  Penicillium  Rhizopus  Scedosporium  Scopulariopsis  Sporothrix schenckii complex  Talaromyces marneffei
+参考\预测                                                                                                                                                                                                                                                                                                                                             
+Alternaria              26          0             0           0         0           0              0          0                        0               0           0         1                       0            0      0             0            0         0             0               0                             0                      0
+A. flavus                0          0             8           1       191           1              0          0                        0               0           0         0                       0            0      2             0            0        11             0               0                             0                      0
+A. fumigatus             0          5            71          37        48         186             24          0                        0               0           0         0                       1            0      1             0            2         7             0               0                             0                      0
+A. nidulans              0          0             6           2         0           1              5          0                        0               0           0         0                       0            0      0             0            0         0             0               0                             0                      0
+A. niger                 0          0             0           0       117           0              0          0                        0               0           0         0                       0            0      0             0            0         2             0               0                             0                      0
+A. terreus               0          0             0           0         0           0              3          0                        0               0           0         0                       0            0      1             0            0         0             0               0                             0                      0
+A. versicolor            1          1             0          11         0           0             97          0                        0               1           0         0                       0            0      0             0            0         0             0               0                             0                      0
+Cunninghamella           0          5             1           1         1           0              0          0                        0               8           0         0                       3            2      6             3            0         1             1               5                             0                      0
+Curvularia               7          0             0           0         0           0              0          9                        0               0           1         0                       0            0      0             1            0         0             2               0                             0                      0
+Fusarium                 0          0             0           0         0           0              0          0                        1               0           0        51                       0            0      0             1            3         0             0               0                             5                     24
+
+----- 覆盖率–准确率（按株级 top1 概率从高到低） -----
+  覆盖 100%（30 株）：准确率 0.300，对应阈值 p_top1 ≥ 0.18
+  覆盖 90%（27 株）：准确率 0.296，对应阈值 p_top1 ≥ 0.24
+  覆盖 80%（24 株）：准确率 0.333，对应阈值 p_top1 ≥ 0.30
+  覆盖 70%（21 株）：准确率 0.333，对应阈值 p_top1 ≥ 0.39
+  覆盖 60%（18 株）：准确率 0.389，对应阈值 p_top1 ≥ 0.46
+  覆盖 50%（15 株）：准确率 0.467，对应阈值 p_top1 ≥ 0.51
+
+----- 判错的集内菌株 -----
+  PUPH-PCL-001Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.46） 第2 Aspergillus versicolor (sect. Versicolores)（0.23）  已标记
+  PUPH-PCL-002Aspergillus fumigatus (sect. Fumigati)    → Aspergillus versicolor (sect. Versicolores)（0.18） 第2 Aspergillus terreus (sect. Terrei)（0.14）  已标记
+  PUPH-PCL-003Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.30） 第2 Aspergillus niger (sect. Nigri)（0.11）  已标记
+  PUPH-PCL-004Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.48） 第2 Aspergillus niger (sect. Nigri)（0.13）  已标记
+  PUPH-PCL-005Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.39） 第2 Aspergillus glaucus (sect. Aspergillus)（0.24）  已标记
+  PUPH-PCL-006Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.57） 第2 Aspergillus niger (sect. Nigri)（0.08）  已标记
+  PUPH-PCL-007Aspergillus flavus (sect. Flavi)          → Aspergillus niger (sect. Nigri)（0.78） 第2 Aspergillus glaucus (sect. Aspergillus)（0.02）  未标记 ⚠
+  PUPH-PCL-009Aspergillus flavus (sect. Flavi)          → Aspergillus niger (sect. Nigri)（0.78） 第2 Aspergillus flavus (sect. Flavi)（0.02）  未标记 ⚠
+  PUPH-PCL-010Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.51） 第2 Aspergillus versicolor (sect. Versicolores)（0.13）  已标记
+  PUPH-PCL-011Aspergillus terreus (sect. Terrei)        → Aspergillus versicolor (sect. Versicolores)（0.36） 第2 Aspergillus fumigatus (sect. Fumigati)（0.17）  已标记
+  PUPH-PCL-012Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.30） 第2 Aspergillus niger (sect. Nigri)（0.17）  已标记
+  PUPH-PCL-013Aspergillus flavus (sect. Flavi)          → Aspergillus niger (sect. Nigri)（0.75） 第2 Rhizopus（0.04）  未标记 ⚠
+  PUPH-PCL-016Fusarium                                  → Sporothrix schenckii complex（0.50） 第2 Paecilomyces（0.12）  已标记
+  PUPH-PCL-017Aspergillus nidulans (sect. Nidulantes)   → Aspergillus fumigatus (sect. Fumigati)（0.30） 第2 Aspergillus versicolor (sect. Versicolores)（0.20）  已标记
+  PUPH-PCL-022Curvularia                                → Bipolaris（0.42） 第2 Alternaria（0.19）  已标记
+  PUPH-PCL-024Cunninghamella                            → Paecilomyces（0.20） 第2 Scopulariopsis（0.16）  已标记
+  PUPH-PCL-025Aspergillus flavus (sect. Flavi)          → Aspergillus niger (sect. Nigri)（0.51） 第2 Aspergillus fumigatus (sect. Fumigati)（0.09）  已标记
+  PUPH-PCL-027Aspergillus fumigatus (sect. Fumigati)    → Aspergillus terreus (sect. Terrei)（0.39） 第2 Aspergillus fumigatus (sect. Fumigati)（0.21）  已标记
+  PUPH-PCL-029Aspergillus flavus (sect. Flavi)          → Aspergillus niger (sect. Nigri)（0.57） 第2 Aspergillus fumigatus (sect. Fumigati)（0.13）  已标记
+  PUPH-PCL-031Aspergillus fumigatus (sect. Fumigati)    → Aspergillus glaucus (sect. Aspergillus)（0.67） 第2 Penicillium（0.06）  已标记
+  PUPH-PCL-035Curvularia                                → Scedosporium（0.24） 第2 Alternaria（0.21）  已标记
+
+===== 辅助分析（仅供讨论） =====
+ROI 级 top1 准确率   0.366（371/1013，95% CI 0.337–0.397）
+按结构类型：complete 0.366（n=1013）
+按成熟度：mature 0.366（n=1013）
+株级汇总方式的敏感性分析（top1；主要结果以'平均'为准）：
+  平均（预设）      0.300（9/30，95% CI 0.147–0.494）
+  多数投票        0.300（9/30，95% CI 0.147–0.494）
+  最高置信 ROI    0.300（9/30，95% CI 0.147–0.494）

@@ -1,0 +1,34 @@
+===== 按来源（截图级） =====
+site  截图数  准确率  属一级
+----------------------------
+PUPH    2795   0.945   0.966
+WEB2     118   0.771   0.881
+MCW      114   0.912   0.947
+WEB1      76   0.711   0.974
+HSJ       15   0.400   0.933
+JYJ        3   0.000   1.000
+
+===== 按来源（病例/分组级，组内过半截图判对算对） =====
+site  分组数  准确率
+--------------------
+PUPH    1855   0.993
+WEB2      32   0.750
+WEB1      18   0.667
+MCW       13   0.846
+HSJ        4   0.500
+JYJ        1   0.000
+
+本院 PUPH 截图准确率 0.945；外部来源合计 0.782（n=326）
+
+===== 外部来源每类准确率（截图级） =====
+train_class                                  准确率   n
+-------------------------------------------------------
+Aspergillus flavus (sect. Flavi)              0.618  55
+Aspergillus fumigatus (sect. Fumigati)        0.827  75
+Aspergillus nidulans (sect. Nidulantes)       0.000   8
+Aspergillus niger (sect. Nigri)               0.667  15
+Aspergillus terreus (sect. Terrei)            0.000   4
+Aspergillus versicolor (sect. Versicolores)   0.783  23
+Fusarium                                      1.000  80
+Lichtheimia                                   0.850  60
+Talaromyces marneffei                         0.000   6

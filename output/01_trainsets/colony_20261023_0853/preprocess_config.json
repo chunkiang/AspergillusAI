@@ -1,0 +1,28 @@
+{
+  "version": "01_colony_preprocess v1.2 (2026-10-20)",
+  "built_at": "2026-10-23T08:54:21",
+  "root": "/Users/chunjiang/Documents/真菌AI/CNN/补拍_2026",
+  "ann_dir": "/Users/chunjiang/Documents/真菌AI/Audit/output/01_trainsets/colony_annotations",
+  "views": "O",
+  "PLATE_R": 512,
+  "CANVAS": 1280,
+  "CROP": 384,
+  "WHITE_SRGB": 0.9,
+  "GRAY": 0.5,
+  "RING": [
+    1.05,
+    1.25
+  ],
+  "AGAR_AUTO": [
+    1.15,
+    0.85
+  ],
+  "EDGE_MAX_BAD": 0.2,
+  "MIN_REF_PX": 300,
+  "agar_target_srgb": [
+    0.7645,
+    0.6945,
+    0.4618
+  ],
+  "agar_target_n_images": 35
+}

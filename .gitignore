@@ -1,0 +1,7 @@
+
+# output ignores
+.DS_Store
+*.pt
+*.pth
+*.wh
+*.zip
